@@ -1,0 +1,14 @@
+{	
+	"demo_prototype_user:view":[
+		"/demo_prototype/user/index.do"
+	],
+	"demo_prototype_user:add":[
+		"/demo_prototype/user/add.do"
+	],
+	"demo_prototype_user:update":[
+		"/demo_prototype/user/update.do"
+	],
+	"demo_prototype_user:delete":[
+		"/demo_prototype/user/delete.do"
+	]
+}
