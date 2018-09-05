@@ -3985,3 +3985,113 @@
 [DEBUG][2018-09-04 23:20:27,009][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1bc50966]
 [DEBUG][2018-09-04 23:20:27,010][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1bc50966]
 [DEBUG][2018-09-04 23:20:27,010][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 465897830 to pool.
+[DEBUG][2018-09-05 23:24:29,470][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:24:29,549][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:24:29,550][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:24:29,550][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:24:29,550][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:10,346][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:26:10,389][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:10,389][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:10,389][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:10,389][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:10,477][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:26:10,705][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 792820521.
+[DEBUG][2018-09-05 23:26:10,707][testmysql.findUserById]ooo Using Connection [oracle.jdbc.driver.T4CConnection@2f417b29]
+[DEBUG][2018-09-05 23:26:10,707][testmysql.findUserById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-05 23:26:10,791][testmysql.findUserById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-05 23:26:10,824][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2f417b29]
+[DEBUG][2018-09-05 23:26:10,824][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2f417b29]
+[DEBUG][2018-09-05 23:26:10,824][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 792820521 to pool.
+[DEBUG][2018-09-05 23:26:35,043][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:26:35,082][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:35,082][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:35,082][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:35,082][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:26:35,183][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:26:35,377][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 792820521.
+[DEBUG][2018-09-05 23:26:35,379][test.findUserById]ooo Using Connection [oracle.jdbc.driver.T4CConnection@2f417b29]
+[DEBUG][2018-09-05 23:26:35,379][test.findUserById]==>  Preparing: SELECT * FROM WP_UDB_USER t where t.user_key=? 
+[DEBUG][2018-09-05 23:26:35,457][test.findUserById]==> Parameters: admin(String)
+[DEBUG][2018-09-05 23:26:35,489][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2f417b29]
+[DEBUG][2018-09-05 23:26:35,490][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2f417b29]
+[DEBUG][2018-09-05 23:26:35,490][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 792820521 to pool.
+[DEBUG][2018-09-05 23:28:05,629][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:28:05,669][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:05,669][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:05,669][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:05,669][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:05,778][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:28:05,965][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 90085212.
+[DEBUG][2018-09-05 23:28:05,966][testmysql.findUserById]ooo Using Connection [oracle.jdbc.driver.T4CConnection@55e975c]
+[DEBUG][2018-09-05 23:28:05,966][testmysql.findUserById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-05 23:28:06,045][testmysql.findUserById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-05 23:28:06,076][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@55e975c]
+[DEBUG][2018-09-05 23:28:06,076][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@55e975c]
+[DEBUG][2018-09-05 23:28:06,076][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 90085212 to pool.
+[DEBUG][2018-09-05 23:28:06,086][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:06,087][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:06,087][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:06,087][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:06,111][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:28:06,122][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1957881296.
+[DEBUG][2018-09-05 23:28:06,122][test.findUserById]ooo Using Connection [oracle.jdbc.driver.T4CConnection@74b2e5d0]
+[DEBUG][2018-09-05 23:28:06,123][test.findUserById]==>  Preparing: SELECT * FROM WP_UDB_USER t where t.user_key=? 
+[DEBUG][2018-09-05 23:28:06,123][test.findUserById]==> Parameters: admin(String)
+[DEBUG][2018-09-05 23:28:06,127][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@74b2e5d0]
+[DEBUG][2018-09-05 23:28:06,127][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@74b2e5d0]
+[DEBUG][2018-09-05 23:28:06,127][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1957881296 to pool.
+[DEBUG][2018-09-05 23:28:16,782][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:28:16,822][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:16,822][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:16,822][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:16,822][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:16,917][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:28:17,099][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 90085212.
+[DEBUG][2018-09-05 23:28:17,100][testmysql.findUserById]ooo Using Connection [oracle.jdbc.driver.T4CConnection@55e975c]
+[DEBUG][2018-09-05 23:28:17,101][testmysql.findUserById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-05 23:28:17,181][testmysql.findUserById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-05 23:28:17,212][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@55e975c]
+[DEBUG][2018-09-05 23:28:17,212][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@55e975c]
+[DEBUG][2018-09-05 23:28:17,212][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 90085212 to pool.
+[DEBUG][2018-09-05 23:28:17,224][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:17,224][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:17,224][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:17,224][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:28:17,246][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:28:17,257][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1957881296.
+[DEBUG][2018-09-05 23:28:17,257][test.findUserById]ooo Using Connection [oracle.jdbc.driver.T4CConnection@74b2e5d0]
+[DEBUG][2018-09-05 23:28:17,258][test.findUserById]==>  Preparing: SELECT * FROM WP_UDB_USER t where t.user_key=? 
+[DEBUG][2018-09-05 23:28:17,258][test.findUserById]==> Parameters: admin(String)
+[DEBUG][2018-09-05 23:28:17,262][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@74b2e5d0]
+[DEBUG][2018-09-05 23:28:17,262][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@74b2e5d0]
+[DEBUG][2018-09-05 23:28:17,262][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1957881296 to pool.
+[DEBUG][2018-09-05 23:38:40,720][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:38:40,762][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:38:40,762][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:38:40,762][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:38:40,762][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:38:40,845][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:41:47,818][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:41:47,937][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:41:47,937][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:41:47,938][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:41:47,938][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:41:48,018][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:41:48,163][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1137689071.
+[DEBUG][2018-09-05 23:41:48,164][testmysql.findUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@43cfc1ef]
+[DEBUG][2018-09-05 23:41:48,164][testmysql.findUserById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-05 23:41:48,192][testmysql.findUserById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-05 23:41:48,205][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@43cfc1ef]
+[DEBUG][2018-09-05 23:41:48,205][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43cfc1ef]
+[DEBUG][2018-09-05 23:41:48,205][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1137689071 to pool.
+[DEBUG][2018-09-05 23:42:13,780][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-05 23:42:13,905][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:42:13,906][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:42:13,906][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:42:13,906][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-05 23:42:13,979][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-05 23:42:14,119][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1137689071.
+[DEBUG][2018-09-05 23:42:14,121][test.findUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@43cfc1ef]
+[DEBUG][2018-09-05 23:42:14,121][test.findUserById]==>  Preparing: SELECT * FROM WP_UDB_USER t where t.user_key=? 
+[DEBUG][2018-09-05 23:42:14,147][test.findUserById]==> Parameters: admin(String)
