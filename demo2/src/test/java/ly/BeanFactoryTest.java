@@ -6,6 +6,8 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.core.io.*;
+
+import com.ly.demo.Person;
 public class BeanFactoryTest {
  @Test
  public void getBean() throws Throwable{

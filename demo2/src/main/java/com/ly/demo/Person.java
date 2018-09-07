@@ -1,4 +1,4 @@
-package ly;
+package com.ly.demo;
 
 public class Person {
 	private String name;

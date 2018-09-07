@@ -1,4 +1,4 @@
-package ly;
+package com.ly.demo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

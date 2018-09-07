@@ -1,10 +1,12 @@
 package ly;
 
 import static org.junit.Assert.*;
-import ly.Person;
+
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericGroovyApplicationContext;
+
+import com.ly.demo.Person;
 
 public class GroovyApplicationContextTest {
 	@Test

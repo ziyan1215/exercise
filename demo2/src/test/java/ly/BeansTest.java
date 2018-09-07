@@ -2,11 +2,13 @@ package ly;
 
 import static org.junit.Assert.*;
 
-
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ly.Person;
+
+import com.ly.demo.Beans;
+import com.ly.demo.Person;
+
 public class BeansTest {
 
 	@Test
