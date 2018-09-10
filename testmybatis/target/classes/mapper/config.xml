@@ -17,6 +17,7 @@
   <mappers>
     <mapper resource="mapper/user.xml"/>
     <mapper resource="mapper/userMysql.xml"/>
+     <mapper resource="mapper/TuserMapper.xml"/>
   </mappers>
 </configuration>
 <!-- oracle 数据源配置

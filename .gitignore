@@ -14,3 +14,4 @@ testmybatis/pom.xml
 testmybatis/.classpath
 .gitignore
 demo2/target/
+testmybatis/mybatis.log

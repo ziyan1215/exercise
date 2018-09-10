@@ -4108,3 +4108,555 @@
 [DEBUG][2018-09-06 11:27:00,072][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@149bc5a]
 [DEBUG][2018-09-06 11:27:00,072][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@149bc5a]
 [DEBUG][2018-09-06 11:27:00,073][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 21609562 to pool.
+[DEBUG][2018-09-10 11:58:03,016][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 11:58:03,304][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,304][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,304][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,304][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,420][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 11:58:03,705][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 131378360.
+[DEBUG][2018-09-10 11:58:03,706][testmysql.findUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7d4acb8]
+[DEBUG][2018-09-10 11:58:03,707][testmysql.findUserById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-10 11:58:03,737][testmysql.findUserById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-10 11:58:03,767][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7d4acb8]
+[DEBUG][2018-09-10 11:58:03,767][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7d4acb8]
+[DEBUG][2018-09-10 11:58:03,767][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 131378360 to pool.
+[DEBUG][2018-09-10 11:58:03,779][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,779][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,779][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,779][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 11:58:03,804][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 11:58:03,812][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1500333130.
+[DEBUG][2018-09-10 11:58:03,812][test.findUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@596d444a]
+[DEBUG][2018-09-10 11:58:03,813][test.findUserById]==>  Preparing: SELECT * FROM WP_UDB_USER t where t.user_key=? 
+[DEBUG][2018-09-10 11:58:03,813][test.findUserById]==> Parameters: admin(String)
+[DEBUG][2018-09-10 13:46:35,548][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:35,572][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:35,572][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO][2018-09-10 13:46:35,575][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f267434: startup date [Mon Sep 10 13:46:35 CST 2018]; root of context hierarchy
+[DEBUG][2018-09-10 13:46:35,655][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:35,656][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:35,656][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO][2018-09-10 13:46:35,686][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[DEBUG][2018-09-10 13:46:35,747][org.springframework.beans.factory.xml.DefaultDocumentLoader]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[DEBUG][2018-09-10 13:46:35,834][org.springframework.beans.factory.xml.PluggableSchemaResolver]Loading schema mappings from [META-INF/spring.schemas]
+[DEBUG][2018-09-10 13:46:35,848][org.springframework.beans.factory.xml.PluggableSchemaResolver]Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+[DEBUG][2018-09-10 13:46:35,850][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+[DEBUG][2018-09-10 13:46:35,901][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+[DEBUG][2018-09-10 13:46:35,907][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+[DEBUG][2018-09-10 13:46:35,919][org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]Loading bean definitions
+[DEBUG][2018-09-10 13:46:35,931][org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver]Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[DEBUG][2018-09-10 13:46:35,987][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:35,987][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:35,987][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2018-09-10 13:46:35,993][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [D:\exercise\testmybatis\target\classes\ly\service]
+[DEBUG][2018-09-10 13:46:35,994][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [D:\exercise\testmybatis\target\classes\ly\service] for files matching pattern [D:/exercise/testmybatis/target/classes/ly/service/**/*.class]
+[DEBUG][2018-09-10 13:46:35,996][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:ly/service/**/*.class] to resources [file [D:\exercise\testmybatis\target\classes\ly\service\UserService.class], file [D:\exercise\testmybatis\target\classes\ly\service\userServiceImpl.class]]
+[DEBUG][2018-09-10 13:46:36,018][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]Identified candidate component class: file [D:\exercise\testmybatis\target\classes\ly\service\userServiceImpl.class]
+[DEBUG][2018-09-10 13:46:36,033][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:36,033][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:36,033][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2018-09-10 13:46:36,035][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [D:\exercise\testmybatis\target\classes\ly\dao]
+[DEBUG][2018-09-10 13:46:36,035][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [D:\exercise\testmybatis\target\classes\ly\dao] for files matching pattern [D:/exercise/testmybatis/target/classes/ly/dao/**/*.class]
+[DEBUG][2018-09-10 13:46:36,035][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:ly/dao/**/*.class] to resources [file [D:\exercise\testmybatis\target\classes\ly\dao\LoginLogMapper.class], file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]]
+[DEBUG][2018-09-10 13:46:36,036][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:36,036][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:36,036][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2018-09-10 13:46:36,037][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [D:\exercise\testmybatis\target\classes\ly\model]
+[DEBUG][2018-09-10 13:46:36,037][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [D:\exercise\testmybatis\target\classes\ly\model] for files matching pattern [D:/exercise/testmybatis/target/classes/ly/model/**/*.class]
+[DEBUG][2018-09-10 13:46:36,038][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:ly/model/**/*.class] to resources [file [D:\exercise\testmybatis\target\classes\ly\model\LoginLog.class], file [D:\exercise\testmybatis\target\classes\ly\model\User.class]]
+[DEBUG][2018-09-10 13:46:36,038][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loaded 8 bean definitions from location pattern [spring.xml]
+[INFO][2018-09-10 13:46:36,038][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[DEBUG][2018-09-10 13:46:36,040][org.springframework.beans.factory.xml.DefaultDocumentLoader]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[DEBUG][2018-09-10 13:46:36,041][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+[DEBUG][2018-09-10 13:46:36,056][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.0.xsd
+[DEBUG][2018-09-10 13:46:36,079][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+[DEBUG][2018-09-10 13:46:36,084][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd
+[DEBUG][2018-09-10 13:46:36,091][org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]Loading bean definitions
+[DEBUG][2018-09-10 13:46:36,095][org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+[DEBUG][2018-09-10 13:46:36,155][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loaded 11 bean definitions from location pattern [spring-mybatis.xml]
+[DEBUG][2018-09-10 13:46:36,156][org.springframework.context.support.ClassPathXmlApplicationContext]Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@f267434: org.springframework.beans.factory.support.DefaultListableBeanFactory@311ae9b2: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1]; root of factory hierarchy
+[DEBUG][2018-09-10 13:46:36,209][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,209][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,225][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,227][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,263][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2018-09-10 13:46:36,263][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2018-09-10 13:46:36,264][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,288][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2018-09-10 13:46:36,288][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2018-09-10 13:46:36,290][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:36,290][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2018-09-10 13:46:36,290][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2018-09-10 13:46:36,291][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [D:\exercise\testmybatis\target\classes\ly\dao]
+[DEBUG][2018-09-10 13:46:36,291][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [D:\exercise\testmybatis\target\classes\ly\dao] for files matching pattern [D:/exercise/testmybatis/target/classes/ly/dao/**/*.class]
+[DEBUG][2018-09-10 13:46:36,291][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:ly/dao/**/*.class] to resources [file [D:\exercise\testmybatis\target\classes\ly\dao\LoginLogMapper.class], file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]]
+[DEBUG][2018-09-10 13:46:36,291][org.mybatis.spring.mapper.MapperScannerConfigurer$Scanner]Identified candidate component class: file [D:\exercise\testmybatis\target\classes\ly\dao\LoginLogMapper.class]
+[DEBUG][2018-09-10 13:46:36,292][org.mybatis.spring.mapper.MapperScannerConfigurer$Scanner]Identified candidate component class: file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]
+[DEBUG][2018-09-10 13:46:36,292][org.mybatis.spring.mapper.MapperScannerConfigurer$Scanner]Creating MapperFactoryBean with name 'loginLogMapper' and 'ly.dao.LoginLogMapper' mapperInterface
+[DEBUG][2018-09-10 13:46:36,293][org.mybatis.spring.mapper.MapperScannerConfigurer$Scanner]Creating MapperFactoryBean with name 'userMapper' and 'ly.dao.UserMapper' mapperInterface
+[DEBUG][2018-09-10 13:46:36,293][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[DEBUG][2018-09-10 13:46:36,293][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[DEBUG][2018-09-10 13:46:36,294][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,299][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[INFO][2018-09-10 13:46:36,299][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[DEBUG][2018-09-10 13:46:36,303][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,303][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,303][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,303][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,303][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,303][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,304][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,304][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,304][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,304][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,338][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,338][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2018-09-10 13:46:36,338][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2018-09-10 13:46:36,338][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2018-09-10 13:46:36,338][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2018-09-10 13:46:36,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[DEBUG][2018-09-10 13:46:36,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[DEBUG][2018-09-10 13:46:36,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[DEBUG][2018-09-10 13:46:36,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG][2018-09-10 13:46:36,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG][2018-09-10 13:46:36,348][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,363][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG][2018-09-10 13:46:36,370][org.springframework.context.support.ClassPathXmlApplicationContext]Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@3b5b8981]
+[DEBUG][2018-09-10 13:46:36,371][org.springframework.context.support.ClassPathXmlApplicationContext]Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@75c5133d]
+[DEBUG][2018-09-10 13:46:36,372][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@311ae9b2: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,loginLogMapper,userMapper]; root of factory hierarchy
+[DEBUG][2018-09-10 13:46:36,373][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[DEBUG][2018-09-10 13:46:36,373][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'userService'
+[DEBUG][2018-09-10 13:46:36,373][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'userService'
+[DEBUG][2018-09-10 13:46:36,373][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,373][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,374][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,379][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'transactionPointcut'
+[DEBUG][2018-09-10 13:46:36,384][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'transactionPointcut'
+[DEBUG][2018-09-10 13:46:36,385][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,385][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,385][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,385][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,385][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'druid-stat-pointcut'
+[DEBUG][2018-09-10 13:46:36,385][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,385][org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper]Skipping currently created advisor 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,403][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,403][org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper]Skipping currently created advisor 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,403][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,403][org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper]Skipping currently created advisor 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,549][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'druid-stat-pointcut'
+[DEBUG][2018-09-10 13:46:36,550][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,553][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [ly.service.userServiceImpl]: AutowiredMethodElement for public void ly.service.userServiceImpl.setUserMapper(ly.dao.UserMapper)
+[DEBUG][2018-09-10 13:46:36,553][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'userService' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,553][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected element of bean 'userService': AutowiredMethodElement for public void ly.service.userServiceImpl.setUserMapper(ly.dao.UserMapper)
+[DEBUG][2018-09-10 13:46:36,555][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,555][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,559][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 13:46:36,562][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,562][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,563][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'loginLogMapper'
+[DEBUG][2018-09-10 13:46:36,563][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'loginLogMapper'
+[DEBUG][2018-09-10 13:46:36,580][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+[DEBUG][2018-09-10 13:46:36,581][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+[DEBUG][2018-09-10 13:46:36,581][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'loginLogMapper' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,581][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected element of bean 'loginLogMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+[DEBUG][2018-09-10 13:46:36,581][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,581][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,581][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,581][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,586][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning eagerly cached instance of singleton bean 'loginLogMapper' that is not fully initialized yet - a consequence of a circular reference
+[DEBUG][2018-09-10 13:46:36,586][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,586][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,586][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'userMapper'
+[DEBUG][2018-09-10 13:46:36,586][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'userMapper'
+[DEBUG][2018-09-10 13:46:36,587][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+[DEBUG][2018-09-10 13:46:36,587][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+[DEBUG][2018-09-10 13:46:36,587][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'userMapper' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,587][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected element of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+[DEBUG][2018-09-10 13:46:36,587][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,587][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,588][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,588][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,588][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning eagerly cached instance of singleton bean 'userMapper' that is not fully initialized yet - a consequence of a circular reference
+[DEBUG][2018-09-10 13:46:36,588][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected element of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+[DEBUG][2018-09-10 13:46:36,588][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'sqlSessionFactory'
+[DEBUG][2018-09-10 13:46:36,589][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'sqlSessionFactory'
+[DEBUG][2018-09-10 13:46:36,589][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,589][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,590][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,593][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'dataSource'
+[DEBUG][2018-09-10 13:46:36,593][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'dataSource'
+[DEBUG][2018-09-10 13:46:36,593][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,593][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,808][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,814][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,814][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,814][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,815][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,824][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'dataSource'
+[WARN][2018-09-10 13:46:36,826][org.springframework.beans.factory.support.DefaultListableBeanFactory]Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+[DEBUG][2018-09-10 13:46:36,826][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected element of bean 'loginLogMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+[DEBUG][2018-09-10 13:46:36,826][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'sqlSessionFactory'
+[DEBUG][2018-09-10 13:46:36,827][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'sqlSessionFactory'
+[DEBUG][2018-09-10 13:46:36,827][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,827][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,827][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,827][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'dataSource'
+[WARN][2018-09-10 13:46:36,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginLogMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\LoginLogMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+[DEBUG][2018-09-10 13:46:36,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'userMapper'
+[DEBUG][2018-09-10 13:46:36,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'userMapper'
+[DEBUG][2018-09-10 13:46:36,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'userMapper' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,828][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected element of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+[DEBUG][2018-09-10 13:46:36,828][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected element of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+[DEBUG][2018-09-10 13:46:36,829][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'sqlSessionFactory'
+[DEBUG][2018-09-10 13:46:36,829][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'sqlSessionFactory'
+[DEBUG][2018-09-10 13:46:36,829][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2018-09-10 13:46:36,829][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2018-09-10 13:46:36,829][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+[DEBUG][2018-09-10 13:46:36,829][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'dataSource'
+[WARN][2018-09-10 13:46:36,830][org.springframework.beans.factory.support.DefaultListableBeanFactory]Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+[WARN][2018-09-10 13:46:36,830][org.springframework.context.support.ClassPathXmlApplicationContext]Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void ly.service.userServiceImpl.setUserMapper(ly.dao.UserMapper); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [ly.dao.UserMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+Related cause: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+Related cause: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginLogMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\LoginLogMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+Related cause: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at ly.mapper.TestMybatis.test(TestMybatis.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void ly.service.userServiceImpl.setUserMapper(ly.dao.UserMapper); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [ly.dao.UserMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 36 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [ly.dao.UserMapper] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1373)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1119)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:616)
+	... 38 more
+Related cause:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1468)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:808)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:447)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:423)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:616)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1468)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:808)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:447)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:423)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:616)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at ly.mapper.TestMybatis.test(TestMybatis.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 74 more
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:596)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertForProperty(AbstractNestablePropertyAccessor.java:603)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	... 80 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.support.ResourceArrayPropertyEditor.setAsText(ResourceArrayPropertyEditor.java:116)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:464)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:437)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:195)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:576)
+	... 86 more
+Related cause:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginLogMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\LoginLogMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1468)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:808)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:447)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:423)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:616)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at ly.mapper.TestMybatis.test(TestMybatis.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 56 more
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:596)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertForProperty(AbstractNestablePropertyAccessor.java:603)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	... 62 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.support.ResourceArrayPropertyEditor.setAsText(ResourceArrayPropertyEditor.java:116)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:464)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:437)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:195)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:576)
+	... 68 more
+Related cause:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\exercise\testmybatis\target\classes\ly\dao\UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1468)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:808)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:447)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:423)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:616)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at ly.mapper.TestMybatis.test(TestMybatis.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 56 more
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'org.springframework.core.io.Resource[]' for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:596)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertForProperty(AbstractNestablePropertyAccessor.java:603)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	... 62 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:ly/mapping/*.xml]: class path resource [ly/mapping/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.support.ResourceArrayPropertyEditor.setAsText(ResourceArrayPropertyEditor.java:116)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:464)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:437)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:195)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:576)
+	... 68 more
+[DEBUG][2018-09-10 13:46:36,837][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@311ae9b2: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,loginLogMapper,userMapper]; root of factory hierarchy
+[DEBUG][2018-09-10 13:46:36,837][org.springframework.beans.factory.support.DisposableBeanAdapter]Invoking destroy method 'close' on bean with name 'dataSource'
+[DEBUG][2018-09-10 14:04:29,781][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 14:04:29,928][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:04:29,929][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:04:29,929][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:04:29,929][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:05:46,309][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 14:05:46,391][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:05:46,391][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:05:46,391][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:05:46,391][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 14:05:46,491][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 14:05:46,795][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1643908326.
+[DEBUG][2018-09-10 14:05:46,811][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 14:05:46,812][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-10 14:05:46,841][ly.mapper.TuserMapper.findById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-10 14:05:46,860][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 14:05:46,861][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 14:05:46,861][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1643908326 to pool.
