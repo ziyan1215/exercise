@@ -14,10 +14,13 @@
       </dataSource>
     </environment>
   </environments>
+  
   <mappers>
     <mapper resource="mapper/user.xml"/>
     <mapper resource="mapper/userMysql.xml"/>
-     <mapper resource="mapper/TuserMapper.xml"/>
+    <mapper resource="mapper/TuserMapper.xml"/>
+    <!-- 这种扫描方式要mapper接口和mapper.xml在同一个包下 -->
+   <!--  <package name="ly.mapper"/> -->
   </mappers>
 </configuration>
 <!-- oracle 数据源配置

@@ -4660,3 +4660,708 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve resource locati
 [DEBUG][2018-09-10 14:05:46,860][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
 [DEBUG][2018-09-10 14:05:46,861][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
 [DEBUG][2018-09-10 14:05:46,861][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1643908326 to pool.
+[DEBUG][2018-09-10 19:53:25,276][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 19:53:25,540][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 19:53:25,540][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 19:53:25,540][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 19:53:25,540][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 19:53:25,701][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 19:53:26,045][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-10 19:53:26,049][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-10 19:53:26,049][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-10 19:53:26,080][ly.mapper.TuserMapper.findById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-10 19:53:26,165][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-10 19:53:26,165][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-10 19:53:26,165][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-10 23:02:33,675][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:02:33,759][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:33,759][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:33,759][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:33,759][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:33,891][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:02:34,050][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1643908326.
+[DEBUG][2018-09-10 23:02:34,052][testmysql.findUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:02:34,052][testmysql.findUserById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-10 23:02:34,080][testmysql.findUserById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-10 23:02:34,093][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:02:34,093][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:02:34,093][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1643908326 to pool.
+[DEBUG][2018-09-10 23:02:43,805][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:02:43,886][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:43,886][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:43,886][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:43,886][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:43,984][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:02:44,132][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1643908326.
+[DEBUG][2018-09-10 23:02:44,134][test.findUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:02:44,134][test.findUserById]==>  Preparing: SELECT * FROM WP_UDB_USER t where t.user_key=? 
+[DEBUG][2018-09-10 23:02:44,161][test.findUserById]==> Parameters: admin(String)
+[DEBUG][2018-09-10 23:02:58,251][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:02:58,331][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:58,331][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:58,331][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:58,331][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:02:58,432][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:02:58,588][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1643908326.
+[DEBUG][2018-09-10 23:02:58,590][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:02:58,590][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-10 23:02:58,617][ly.mapper.TuserMapper.findById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-10 23:02:58,630][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:02:58,631][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:02:58,631][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1643908326 to pool.
+[DEBUG][2018-09-10 23:04:07,887][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:04:07,967][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:07,967][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:07,967][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:07,967][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:07,973][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VFS
+[DEBUG][2018-09-10 23:04:07,973][org.apache.ibatis.io.ResolverUtil]JBoss 6 VFS API is not available in this environment.
+[DEBUG][2018-09-10 23:04:07,974][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][2018-09-10 23:04:07,974][org.apache.ibatis.io.ResolverUtil]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][2018-09-10 23:04:07,975][org.apache.ibatis.io.ResolverUtil]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][2018-09-10 23:04:07,975][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:04:07,975][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:04:08,042][org.apache.ibatis.io.ResolverUtil]Reader entry: TuserMapper.class
+[DEBUG][2018-09-10 23:04:08,042][org.apache.ibatis.io.ResolverUtil]Listing file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:04:08,042][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:04:08,043][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:04:08,043][org.apache.ibatis.io.ResolverUtil]Reader entry: ����   3 	  ly/mapper/TuserMapper  java/lang/Object findById (I)Ljava/lang/String; 
+[DEBUG][2018-09-10 23:04:08,043][org.apache.ibatis.io.ResolverUtil]Checking to see if class ly.mapper.TuserMapper matches criteria [is assignable to Object]
+[DEBUG][2018-09-10 23:04:29,534][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:04:29,625][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:29,625][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:29,625][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:29,625][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:04:29,631][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VFS
+[DEBUG][2018-09-10 23:04:29,631][org.apache.ibatis.io.ResolverUtil]JBoss 6 VFS API is not available in this environment.
+[DEBUG][2018-09-10 23:04:29,632][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][2018-09-10 23:04:29,633][org.apache.ibatis.io.ResolverUtil]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][2018-09-10 23:04:29,634][org.apache.ibatis.io.ResolverUtil]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][2018-09-10 23:04:29,635][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:04:29,635][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:04:29,699][org.apache.ibatis.io.ResolverUtil]Reader entry: TuserMapper.class
+[DEBUG][2018-09-10 23:04:29,700][org.apache.ibatis.io.ResolverUtil]Reader entry: TuserMapper.xml
+[DEBUG][2018-09-10 23:04:29,700][org.apache.ibatis.io.ResolverUtil]Listing file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:04:29,700][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:04:29,700][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:04:29,700][org.apache.ibatis.io.ResolverUtil]Reader entry: ����   3 	  ly/mapper/TuserMapper  java/lang/Object findById (I)Ljava/lang/String; 
+[DEBUG][2018-09-10 23:04:29,701][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.xml
+[DEBUG][2018-09-10 23:04:29,701][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.xml
+[DEBUG][2018-09-10 23:04:29,701][org.apache.ibatis.io.ResolverUtil]Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+[DEBUG][2018-09-10 23:04:29,702][org.apache.ibatis.io.ResolverUtil]Checking to see if class ly.mapper.TuserMapper matches criteria [is assignable to Object]
+[DEBUG][2018-09-10 23:04:29,762][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:04:29,910][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1879212564.
+[DEBUG][2018-09-10 23:04:29,911][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@70028214]
+[DEBUG][2018-09-10 23:04:29,911][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-10 23:04:29,938][ly.mapper.TuserMapper.findById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-10 23:04:29,952][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@70028214]
+[DEBUG][2018-09-10 23:04:29,952][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@70028214]
+[DEBUG][2018-09-10 23:04:29,952][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1879212564 to pool.
+[DEBUG][2018-09-10 23:10:10,141][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:10:10,233][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:10,233][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:10,233][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:10,233][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:10,307][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VFS
+[DEBUG][2018-09-10 23:10:10,307][org.apache.ibatis.io.ResolverUtil]JBoss 6 VFS API is not available in this environment.
+[DEBUG][2018-09-10 23:10:10,307][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][2018-09-10 23:10:10,308][org.apache.ibatis.io.ResolverUtil]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][2018-09-10 23:10:10,308][org.apache.ibatis.io.ResolverUtil]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][2018-09-10 23:10:10,309][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:10:10,309][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:10:10,343][org.apache.ibatis.io.ResolverUtil]Reader entry: TuserMapper.class
+[DEBUG][2018-09-10 23:10:10,344][org.apache.ibatis.io.ResolverUtil]Listing file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:10:10,344][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:10:10,344][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:10:10,345][org.apache.ibatis.io.ResolverUtil]Reader entry: ����   3 	  ly/mapper/TuserMapper  java/lang/Object findById (I)Ljava/lang/String; 
+[DEBUG][2018-09-10 23:10:10,345][org.apache.ibatis.io.ResolverUtil]Checking to see if class ly.mapper.TuserMapper matches criteria [is assignable to Object]
+[DEBUG][2018-09-10 23:10:27,689][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:10:27,770][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:27,770][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:27,770][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:27,770][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:27,848][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VFS
+[DEBUG][2018-09-10 23:10:27,849][org.apache.ibatis.io.ResolverUtil]JBoss 6 VFS API is not available in this environment.
+[DEBUG][2018-09-10 23:10:27,849][org.apache.ibatis.io.ResolverUtil]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][2018-09-10 23:10:27,850][org.apache.ibatis.io.ResolverUtil]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][2018-09-10 23:10:27,850][org.apache.ibatis.io.ResolverUtil]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][2018-09-10 23:10:27,850][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:10:27,851][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:10:27,886][org.apache.ibatis.io.ResolverUtil]Reader entry: TuserMapper.class
+[DEBUG][2018-09-10 23:10:27,887][org.apache.ibatis.io.ResolverUtil]Listing file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper
+[DEBUG][2018-09-10 23:10:27,887][org.apache.ibatis.io.ResolverUtil]Find JAR URL: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:10:27,887][org.apache.ibatis.io.ResolverUtil]Not a JAR: file:/E:/GitRepository/exercise/testmybatis/target/classes/ly/mapper/TuserMapper.class
+[DEBUG][2018-09-10 23:10:27,887][org.apache.ibatis.io.ResolverUtil]Reader entry: ����   3 	  ly/mapper/TuserMapper  java/lang/Object findById (I)Ljava/lang/String; 
+[DEBUG][2018-09-10 23:10:27,887][org.apache.ibatis.io.ResolverUtil]Checking to see if class ly.mapper.TuserMapper matches criteria [is assignable to Object]
+[DEBUG][2018-09-10 23:10:43,355][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:10:43,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:43,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:43,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:43,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:10:43,546][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:10:43,702][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1643908326.
+[DEBUG][2018-09-10 23:10:43,703][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:10:43,703][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-10 23:10:43,730][ly.mapper.TuserMapper.findById]==> Parameters: 1(Integer)
+[DEBUG][2018-09-10 23:10:43,742][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:10:43,742][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@61fc0ce6]
+[DEBUG][2018-09-10 23:10:43,743][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1643908326 to pool.
+[DEBUG][2018-09-10 23:29:29,358][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:29:29,435][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:29:29,435][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:29:29,435][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:29:29,436][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:29:29,536][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:29:29,687][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:29:29,689][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:29:29,689][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:29:29,721][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:29:29,721][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:29:29,832][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:29:29,832][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:29:29,832][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:30:15,533][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:30:15,611][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:30:15,612][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:30:15,612][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:30:15,612][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:30:15,713][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:30:15,863][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:30:15,864][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:30:15,865][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:30:15,892][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:30:15,892][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:30:15,925][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:30:15,925][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:30:15,925][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:33:41,856][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:33:41,939][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:33:41,939][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:33:41,940][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:33:41,940][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:33:42,040][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:33:42,183][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:33:42,185][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:33:42,185][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:33:42,213][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:33:42,214][sy.test.test]1
+[DEBUG][2018-09-10 23:33:42,214][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:33:42,281][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:33:42,282][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:33:42,282][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:39:05,958][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:39:06,042][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:39:06,042][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:39:06,042][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:39:06,042][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:39:06,150][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:39:06,301][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:39:06,303][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:39:06,303][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:39:06,330][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:39:06,330][sy.test.test]1
+[DEBUG][2018-09-10 23:39:06,330][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:39:06,710][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:39:06,710][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:39:06,711][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:41:59,297][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:41:59,382][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:41:59,382][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:41:59,383][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:41:59,383][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:41:59,485][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:41:59,635][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:41:59,637][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:41:59,637][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:41:59,667][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:41:59,668][sy.test.test]1
+[DEBUG][2018-09-10 23:41:59,668][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:41:59,733][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:41:59,733][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:41:59,733][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:42:18,060][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:42:18,141][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:42:18,141][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:42:18,141][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:42:18,141][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:42:18,241][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:42:18,389][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:42:18,391][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:42:18,391][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:42:18,421][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:42:18,422][sy.test.test]Tuser [user_id=0, user_name=xzy, password=123456, credits=0, last_visit=null, last_ip=null]
+[DEBUG][2018-09-10 23:42:18,422][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:42:18,490][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:42:18,491][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:42:18,491][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:43:26,836][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:43:26,920][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:43:26,920][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:43:26,921][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:43:26,921][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:43:27,028][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:43:27,178][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:43:27,180][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:43:27,180][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:43:27,207][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:43:27,207][sy.test.test]0
+[DEBUG][2018-09-10 23:43:27,207][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:43:27,268][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:43:27,268][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:43:27,268][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:44:24,423][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:44:24,509][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:44:24,509][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:44:24,509][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:44:24,509][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:44:24,608][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:44:24,757][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:44:24,759][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:44:24,759][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:44:24,789][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:44:24,790][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:44:24,837][sy.test.test]0
+[DEBUG][2018-09-10 23:44:24,837][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:44:24,837][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:44:24,837][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:45:53,907][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:45:53,992][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:45:53,992][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:45:53,992][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:45:53,992][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:45:54,090][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:45:54,234][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 935797086.
+[DEBUG][2018-09-10 23:45:54,236][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:45:54,236][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:45:54,264][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:45:54,266][sy.test.test]Tuser [user_id=0, user_name=xzy, password=123456, credits=0, last_visit=null, last_ip=null]
+[DEBUG][2018-09-10 23:45:54,266][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:45:54,332][sy.test.test]0
+[DEBUG][2018-09-10 23:45:54,332][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:45:54,332][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@37c7215e]
+[DEBUG][2018-09-10 23:45:54,332][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 935797086 to pool.
+[DEBUG][2018-09-10 23:47:51,373][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:47:51,457][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:47:51,457][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:47:51,457][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:47:51,457][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:47:51,558][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:47:51,704][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1918877421.
+[DEBUG][2018-09-10 23:47:51,706][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@725fbeed]
+[DEBUG][2018-09-10 23:47:51,706][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:47:51,735][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:47:51,737][ly.mapper.TuserMapper.addUser!selectKey]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@725fbeed]
+[DEBUG][2018-09-10 23:47:51,737][ly.mapper.TuserMapper.addUser!selectKey]==>  Preparing: select LAST_INSERT_ID() 
+[DEBUG][2018-09-10 23:47:51,737][ly.mapper.TuserMapper.addUser!selectKey]==> Parameters: 
+[DEBUG][2018-09-10 23:47:51,749][sy.test.test]Tuser [user_id=15, user_name=xzy, password=123456, credits=0, last_visit=null, last_ip=null]
+[DEBUG][2018-09-10 23:47:51,749][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@725fbeed]
+[DEBUG][2018-09-10 23:47:51,802][sy.test.test]15
+[DEBUG][2018-09-10 23:47:51,802][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@725fbeed]
+[DEBUG][2018-09-10 23:47:51,802][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@725fbeed]
+[DEBUG][2018-09-10 23:47:51,803][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1918877421 to pool.
+[DEBUG][2018-09-10 23:50:09,904][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-10 23:50:09,994][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:50:09,994][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:50:09,994][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:50:09,994][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-10 23:50:10,111][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-10 23:50:10,268][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 413477975.
+[DEBUG][2018-09-10 23:50:10,270][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@18a52c57]
+[DEBUG][2018-09-10 23:50:10,270][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-10 23:50:10,299][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-10 23:50:10,301][ly.mapper.TuserMapper.addUser!selectKey]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@18a52c57]
+[DEBUG][2018-09-10 23:50:10,301][ly.mapper.TuserMapper.addUser!selectKey]==>  Preparing: select LAST_INSERT_ID() 
+[DEBUG][2018-09-10 23:50:10,301][ly.mapper.TuserMapper.addUser!selectKey]==> Parameters: 
+[DEBUG][2018-09-10 23:50:10,313][sy.test.test]Tuser [user_id=16, user_name=xzy, password=123456, credits=0, last_visit=null, last_ip=null]
+[DEBUG][2018-09-10 23:50:10,313][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@18a52c57]
+[DEBUG][2018-09-10 23:50:10,374][sy.test.test]显示刚刚新增数据的主键：16
+[DEBUG][2018-09-10 23:50:10,374][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@18a52c57]
+[DEBUG][2018-09-10 23:50:10,374][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@18a52c57]
+[DEBUG][2018-09-10 23:50:10,374][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 413477975 to pool.
+[DEBUG][2018-09-11 00:02:00,389][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:02:00,471][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:02:00,471][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:02:00,472][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:02:00,472][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:10,843][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:04:10,922][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:10,922][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:10,922][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:10,922][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:11,026][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:04:11,171][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1452135352.
+[DEBUG][2018-09-11 00:04:11,172][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@568dd3b8]
+[DEBUG][2018-09-11 00:04:11,172][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:04:11,201][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:04:11,201][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@568dd3b8]
+[DEBUG][2018-09-11 00:04:11,270][sy.test.test]显示刚刚新增数据的主键：
+[DEBUG][2018-09-11 00:04:11,270][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@568dd3b8]
+[DEBUG][2018-09-11 00:04:11,270][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@568dd3b8]
+[DEBUG][2018-09-11 00:04:11,270][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1452135352 to pool.
+[DEBUG][2018-09-11 00:04:27,849][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:04:27,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:27,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:27,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:27,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:28,033][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:04:28,177][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2034696556.
+[DEBUG][2018-09-11 00:04:28,178][ly.mapper.TuserMapper.addUser]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:28,179][ly.mapper.TuserMapper.addUser]==>  Preparing: INSERT INTO `t_user` (`user_name`,`password`) VALUES (?, ?); 
+[DEBUG][2018-09-11 00:04:28,206][ly.mapper.TuserMapper.addUser]==> Parameters: xzy(String), 123456(String)
+[DEBUG][2018-09-11 00:04:28,208][ly.mapper.TuserMapper.addUser!selectKey]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:28,208][ly.mapper.TuserMapper.addUser!selectKey]==>  Preparing: select LAST_INSERT_ID() 
+[DEBUG][2018-09-11 00:04:28,209][ly.mapper.TuserMapper.addUser!selectKey]==> Parameters: 
+[DEBUG][2018-09-11 00:04:28,220][sy.test.test]Tuser [user_id=17, user_name=xzy, password=123456, credits=0, last_visit=null, last_ip=null]
+[DEBUG][2018-09-11 00:04:28,221][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:28,271][sy.test.test]显示刚刚新增数据的主键：17
+[DEBUG][2018-09-11 00:04:28,271][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:28,271][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:28,271][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2034696556 to pool.
+[DEBUG][2018-09-11 00:04:47,627][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:04:47,711][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:47,711][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:47,711][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:47,711][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:04:47,811][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:04:47,955][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2034696556.
+[DEBUG][2018-09-11 00:04:47,957][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:47,957][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:04:47,987][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:04:47,987][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:47,988][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:47,988][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:04:47,988][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2034696556 to pool.
+[DEBUG][2018-09-11 00:07:57,779][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:07:57,859][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:07:57,859][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:07:57,860][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:07:57,860][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:07:57,958][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:07:58,107][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 857730935.
+[DEBUG][2018-09-11 00:07:58,109][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@331fef77]
+[DEBUG][2018-09-11 00:07:58,109][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:07:58,137][ly.mapper.TuserMapper.findById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:07:58,152][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@331fef77]
+[DEBUG][2018-09-11 00:07:58,153][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@331fef77]
+[DEBUG][2018-09-11 00:07:58,153][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 857730935 to pool.
+[DEBUG][2018-09-11 00:09:20,346][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:09:20,433][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:20,433][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:20,433][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:20,433][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:20,537][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:09:20,693][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2034696556.
+[DEBUG][2018-09-11 00:09:20,705][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:20,705][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:09:20,737][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:09:20,739][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:20,739][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:09:20,739][ly.mapper.TuserMapper.findById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:09:20,750][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:20,751][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:20,751][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:20,751][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2034696556 to pool.
+[DEBUG][2018-09-11 00:09:45,841][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:09:45,925][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:45,926][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:45,926][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:45,926][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:09:46,033][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:09:46,184][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2034696556.
+[DEBUG][2018-09-11 00:09:46,185][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:46,186][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:09:46,211][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:09:46,213][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:46,213][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:09:46,213][ly.mapper.TuserMapper.findById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:09:46,224][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:46,224][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:46,225][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7947016c]
+[DEBUG][2018-09-11 00:09:46,225][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2034696556 to pool.
+[DEBUG][2018-09-11 00:10:18,754][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:10:18,838][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:18,838][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:18,838][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:18,838][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:18,939][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:10:19,089][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:10:19,090][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:19,090][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:10:19,119][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:10:19,121][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:19,121][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:10:19,121][ly.mapper.TuserMapper.findById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:10:19,132][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:10:19,132][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:19,132][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:19,133][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:19,133][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 00:10:36,146][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:10:36,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:36,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:36,227][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:36,227][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:10:36,327][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:10:36,472][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:10:36,473][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:36,473][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:10:36,501][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 15(Integer)
+[DEBUG][2018-09-11 00:10:36,503][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:36,503][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:10:36,503][ly.mapper.TuserMapper.findById]==> Parameters: 15(Integer)
+[DEBUG][2018-09-11 00:10:36,514][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:10:36,514][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:36,566][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:36,566][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:10:36,566][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 00:12:02,076][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:12:02,161][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:02,162][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:02,162][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:02,162][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:02,267][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:12:02,421][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 615421864.
+[DEBUG][2018-09-11 00:12:02,422][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:02,423][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:12:02,451][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 15(Integer)
+[DEBUG][2018-09-11 00:12:02,453][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:02,453][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:12:02,454][ly.mapper.TuserMapper.findById]==> Parameters: 15(Integer)
+[DEBUG][2018-09-11 00:12:02,465][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:12:02,465][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:02,465][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:02,466][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:02,466][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 615421864 to pool.
+[DEBUG][2018-09-11 00:12:46,195][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:12:46,280][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:46,280][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:46,280][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:46,280][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:12:46,391][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:12:46,534][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 615421864.
+[DEBUG][2018-09-11 00:12:46,536][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:46,536][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:12:46,562][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:12:46,564][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:46,564][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:12:46,565][ly.mapper.TuserMapper.findById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:12:46,577][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:12:46,577][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:46,629][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:46,629][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:12:46,629][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 615421864 to pool.
+[DEBUG][2018-09-11 00:13:06,736][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:13:06,826][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:06,826][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:06,827][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:06,827][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:06,931][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:13:07,074][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 615421864.
+[DEBUG][2018-09-11 00:13:07,076][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:13:07,076][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:13:07,103][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:13:07,104][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:13:07,106][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:13:07,106][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:13:07,106][ly.mapper.TuserMapper.findById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:13:07,117][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:13:07,117][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:13:07,117][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:13:07,117][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 615421864 to pool.
+[DEBUG][2018-09-11 00:13:46,049][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:13:46,126][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:46,126][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:46,126][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:46,126][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:13:46,231][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:13:46,377][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:13:46,379][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:13:46,379][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:13:46,407][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:13:46,408][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:13:46,409][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:13:46,409][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:13:46,409][ly.mapper.TuserMapper.findById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:13:46,421][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:13:46,421][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:13:46,422][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:13:46,422][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 00:14:13,627][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:14:13,704][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:14:13,704][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:14:13,704][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:14:13,704][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:14:13,802][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:14:13,950][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1057793548.
+[DEBUG][2018-09-11 00:14:13,951][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@3f0ca60c]
+[DEBUG][2018-09-11 00:14:13,952][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:14:13,980][ly.mapper.TuserMapper.findById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:14:13,991][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f0ca60c]
+[DEBUG][2018-09-11 00:14:13,992][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f0ca60c]
+[DEBUG][2018-09-11 00:14:13,992][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1057793548 to pool.
+[DEBUG][2018-09-11 00:16:14,844][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:16:14,932][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:14,932][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:14,932][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:14,932][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:15,044][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:16:15,200][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 615421864.
+[DEBUG][2018-09-11 00:16:15,201][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:16:15,202][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:16:15,228][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:16:15,229][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:16:15,231][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:16:15,231][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:16:15,231][ly.mapper.TuserMapper.findById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:16:15,243][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:16:15,243][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:16:15,243][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:16:15,243][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 615421864 to pool.
+[DEBUG][2018-09-11 00:16:41,010][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:16:41,110][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:41,111][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:41,111][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:41,111][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:41,233][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:16:41,387][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:16:41,388][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:41,388][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:16:41,416][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:16:41,417][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:41,418][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:41,418][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:16:41,419][ly.mapper.TuserMapper.findById]==> Parameters: 16(Integer)
+[DEBUG][2018-09-11 00:16:41,430][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:16:41,430][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:41,430][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:41,430][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 00:16:58,163][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:16:58,244][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:58,244][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:58,244][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:58,244][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:16:58,355][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:16:58,506][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:16:58,507][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:58,508][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:16:58,535][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 17(Integer)
+[DEBUG][2018-09-11 00:16:58,536][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:58,605][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:58,605][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:16:58,605][ly.mapper.TuserMapper.findById]==> Parameters: 17(Integer)
+[DEBUG][2018-09-11 00:16:58,616][sy.test.test]删除失败
+[DEBUG][2018-09-11 00:16:58,616][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:58,616][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:16:58,617][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 00:18:52,446][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:18:52,526][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:18:52,526][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:18:52,526][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:18:52,526][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:18:52,612][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:18:52,763][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:18:52,764][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:18:52,765][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:18:52,794][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 17(Integer)
+[DEBUG][2018-09-11 00:18:52,795][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:18:52,797][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:18:52,797][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:18:52,797][ly.mapper.TuserMapper.findById]==> Parameters: 17(Integer)
+[DEBUG][2018-09-11 00:18:52,809][sy.test.test]删除成功
+[DEBUG][2018-09-11 00:18:52,809][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:18:52,809][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:18:52,809][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 00:19:12,931][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:19:13,015][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:13,016][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:13,016][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:13,016][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:13,123][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:19:13,269][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 615421864.
+[DEBUG][2018-09-11 00:19:13,271][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:13,271][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:19:13,299][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:19:13,300][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:13,301][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:13,301][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:19:13,301][ly.mapper.TuserMapper.findById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:19:13,313][sy.test.test]删除成功
+[DEBUG][2018-09-11 00:19:13,313][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:13,313][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:13,313][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 615421864 to pool.
+[DEBUG][2018-09-11 00:19:48,088][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:19:48,172][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:48,172][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:48,172][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:48,172][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:19:48,271][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:19:48,421][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 615421864.
+[DEBUG][2018-09-11 00:19:48,422][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:48,423][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:19:48,451][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:19:48,452][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:48,453][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:48,454][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:19:48,454][ly.mapper.TuserMapper.findById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:19:48,466][sy.test.test]
+[DEBUG][2018-09-11 00:19:48,466][sy.test.test]删除成功
+[DEBUG][2018-09-11 00:19:48,466][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:48,466][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:19:48,466][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 615421864 to pool.
+[DEBUG][2018-09-11 00:20:30,456][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:20:30,538][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:30,538][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:30,538][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:30,538][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:30,634][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:20:30,783][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 615421864.
+[DEBUG][2018-09-11 00:20:30,785][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:20:30,785][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:20:30,813][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:20:30,813][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:20:30,815][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:20:30,815][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:20:30,815][ly.mapper.TuserMapper.findById]==> Parameters: 10(Integer)
+[DEBUG][2018-09-11 00:20:30,828][sy.test.test]tuser对象：null
+[DEBUG][2018-09-11 00:20:30,828][sy.test.test]删除成功
+[DEBUG][2018-09-11 00:20:30,828][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:20:30,829][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24ae97a8]
+[DEBUG][2018-09-11 00:20:30,829][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 615421864 to pool.
+[DEBUG][2018-09-11 00:20:45,849][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:20:45,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:45,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:45,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:45,931][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:20:46,029][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:20:46,179][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:20:46,181][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:20:46,181][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:20:46,208][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 11(Integer)
+[DEBUG][2018-09-11 00:20:46,209][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:20:46,280][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:20:46,280][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:20:46,281][ly.mapper.TuserMapper.findById]==> Parameters: 11(Integer)
+[DEBUG][2018-09-11 00:20:46,292][sy.test.test]tuser对象：null
+[DEBUG][2018-09-11 00:20:46,292][sy.test.test]删除成功
+[DEBUG][2018-09-11 00:20:46,292][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:20:46,293][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:20:46,293][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 00:21:28,395][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 00:21:28,476][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:21:28,477][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:21:28,477][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:21:28,477][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 00:21:28,588][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 00:21:28,750][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1114024296.
+[DEBUG][2018-09-11 00:21:28,752][ly.mapper.TuserMapper.deleteUserById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:21:28,752][ly.mapper.TuserMapper.deleteUserById]==>  Preparing: DELETE FROM t_user WHERE user_id=?; 
+[DEBUG][2018-09-11 00:21:28,781][ly.mapper.TuserMapper.deleteUserById]==> Parameters: 13(Integer)
+[DEBUG][2018-09-11 00:21:28,783][ly.mapper.TuserMapper.findById]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:21:28,783][ly.mapper.TuserMapper.findById]==>  Preparing: select * from t_user where user_id=? 
+[DEBUG][2018-09-11 00:21:28,783][ly.mapper.TuserMapper.findById]==> Parameters: 13(Integer)
+[DEBUG][2018-09-11 00:21:28,795][sy.test.test]tuser对象：null
+[DEBUG][2018-09-11 00:21:28,795][sy.test.test]删除成功
+[DEBUG][2018-09-11 00:21:28,796][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:21:28,864][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:21:28,864][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
+[DEBUG][2018-09-11 00:21:28,864][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.

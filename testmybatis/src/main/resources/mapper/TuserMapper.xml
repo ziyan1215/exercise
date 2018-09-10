@@ -6,4 +6,27 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="findById" parameterType="int" resultType="po.Tuser">
 		select * from t_user where user_id=#{id}
 	</select>
+	
+	<!-- 添加用户信息 -->
+	<!--新增信息，并拿到新增信息的表主键信息。  
+    新增数据，得到主键的外层写法没什么特别，跟普通的insert一样。只不过里面加了selectKey-->  
+	<insert id="addUser" parameterType="po.Tuser">
+	    <!--selectKey  会将 SELECT LAST_INSERT_ID()的结果放入到传入的model的主键里面，  
+        keyProperty 对应的model中的主键的属性名，这里是 po.Tuser 中的user_id，因为它跟数据库的主键对应  
+        order AFTER 表示 SELECT LAST_INSERT_ID() 在insert执行之后执行,多用与自增主键，  
+              BEFORE 表示 SELECT LAST_INSERT_ID() 在insert执行之前执行，这样的话就拿不到主键了，  
+                    这种适合那种主键不是自增的类型  
+        resultType 主键类型 -->  
+	 <selectKey keyProperty="user_id" order="AFTER" resultType="java.lang.Integer">
+	 	select LAST_INSERT_ID() 
+	 </selectKey>
+		INSERT INTO `t_user` (`user_name`,`password`) 
+		VALUES (#{user_name}, #{password});
+	</insert>
+	
+	
+	<!--根据主键删除用户  -->
+	<delete id="deleteUserById" parameterType="int">
+		DELETE FROM t_user WHERE  user_id=#{id};
+	</delete>
 </mapper>
