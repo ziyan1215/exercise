@@ -9,7 +9,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<id property="c_id" column="c_id"/>
 	<result property="c_name" column="c_name"/>
 	<result property="t_id" column="t_id"/>
-	<result property="t_name" column="t_name"/>
+	<!-- <result property="t_name" column="t_name"/> -->
 	<association property="teacher" javaType="po.Teacher">
 		<id property="t_id" column="t_id"/>
 		<result property="t_name" column="t_name"/>
@@ -22,7 +22,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	
 	<!--使用resultMap实现  -->
-		<select id="queryCourseResultMap"  resultMap="CourseMap">
+	<select id="queryCourseResultMap"  resultMap="CourseMap">
 		select c.*,t.t_name from teacher t ,course  c
 		where t.t_id=c.t_id;
 	</select>

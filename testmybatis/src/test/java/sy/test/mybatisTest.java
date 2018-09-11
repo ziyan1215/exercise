@@ -59,9 +59,9 @@ public class mybatisTest {
 		SchoolCjMapper schoolCjMapper =sqlSession.getMapper(SchoolCjMapper.class);
 		
 		List<Course> list1 =schoolCjMapper.queryCourseResultMap();
-		System.out.println(list1.get(0));
+		System.out.println(list1.size());
 	    for (Course course : list1) {
-	        System.out.println(course);
+	        System.out.println(course.toString());
 	    }
 		//通过sqlsession操作数据库
 		//SchoolCjMapper schoolCjMapper=sqlSession.selectList("ly.mapper.SchoolCjMapper.queryCourseResultMap");

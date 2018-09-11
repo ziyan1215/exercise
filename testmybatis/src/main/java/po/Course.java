@@ -32,6 +32,11 @@ public class Course {
 	public void setTeacher(Teacher teacher) {
 		this.teacher = teacher;
 	}
+	@Override
+	public String toString() {
+		return "Course [c_id=" + c_id + ", c_name=" + c_name + ", t_id=" + t_id
+				+ ", teacher=" + teacher + "]";
+	}
 	
 
 }

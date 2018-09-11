@@ -15,4 +15,9 @@ public class Teacher {
 	public void setT_name(String t_name) {
 		this.t_name = t_name;
 	}
+	@Override
+	public String toString() {
+		return "Teacher [t_id=" + t_id + ", t_name=" + t_name + "]";
+	}
+	
 }
