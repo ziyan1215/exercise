@@ -2,6 +2,9 @@ package sy.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
+
+import ly.mapper.SchoolCjMapper;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -10,7 +13,9 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Before;
 import org.junit.Test;
 
+import po.Course;
 import po.UserMysql;
+import po.CourseExtend;
 import po.user;
 
 public class mybatisTest {
@@ -27,14 +32,40 @@ public class mybatisTest {
 	}
 	
 	@Test
-	public void testMysql() throws IOException {
-		createSqlSessionFactory();
+	public void testQueryCourse() throws Exception {
+		//createSqlSessionFactory();
 		//通过工厂得到会话sqlsession
 		SqlSession sqlSession = sqlSessionFactory.openSession();
-		int id=1;
+	
 		//通过sqlsession操作数据库
-		UserMysql user=sqlSession.selectOne("testmysql.findUserById", id);
-		System.out.println(user);
+		//List<Course> list =sqlSession.selectList("ly.mapper.SchoolCjMapper.queryCourse");
+		
+		SchoolCjMapper schoolCjMapper =sqlSession.getMapper(SchoolCjMapper.class);
+		
+		List<CourseExtend> courseExtendlist =schoolCjMapper.queryCourse();
+		for(CourseExtend courseExtend:courseExtendlist){
+			System.out.println(courseExtend.toString()+courseExtend.getC_name());
+		}
+		System.out.println(courseExtendlist);
+		sqlSession.close();	
+	}
+	
+	@Test
+	public void testQueryCourseResultMap() throws Exception {
+		//createSqlSessionFactory();
+		//通过工厂得到会话sqlsession
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+		//获取mapper接口实例
+		SchoolCjMapper schoolCjMapper =sqlSession.getMapper(SchoolCjMapper.class);
+		
+		List<Course> list1 =schoolCjMapper.queryCourseResultMap();
+		System.out.println(list1.get(0));
+	    for (Course course : list1) {
+	        System.out.println(course);
+	    }
+		//通过sqlsession操作数据库
+		//SchoolCjMapper schoolCjMapper=sqlSession.selectList("ly.mapper.SchoolCjMapper.queryCourseResultMap");
+		//System.out.println(list.toArray());
 		sqlSession.close();	
 	}
 }

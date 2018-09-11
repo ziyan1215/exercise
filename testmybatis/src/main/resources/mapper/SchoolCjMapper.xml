@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace==mapper接口的全限定名  -->
+<mapper namespace="ly.mapper.SchoolCjMapper" >
+	<!--课程信息resultMap  -->
+	<resultMap type="po.Course" id="CourseMap">
+	<id property="c_id" column="c_id"/>
+	<result property="c_name" column="c_name"/>
+	<result property="t_id" column="t_id"/>
+	<result property="t_name" column="t_name"/>
+	<association property="teacher" javaType="po.Teacher">
+		<id property="t_id" column="t_id"/>
+		<result property="t_name" column="t_name"/>
+	</association>
+	</resultMap>
+	
+	<select id="queryCourse"  resultType="po.CourseExtend">
+		select c.*,t.t_name from teacher t ,course  c
+		where t.t_id=c.t_id;
+	</select>
+	
+	<!--使用resultMap实现  -->
+		<select id="queryCourseResultMap"  resultMap="CourseMap">
+		select c.*,t.t_name from teacher t ,course  c
+		where t.t_id=c.t_id;
+	</select>
+	
+</mapper>

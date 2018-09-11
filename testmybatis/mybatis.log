@@ -5365,3 +5365,668 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve resource locati
 [DEBUG][2018-09-11 00:21:28,864][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
 [DEBUG][2018-09-11 00:21:28,864][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4266a968]
 [DEBUG][2018-09-11 00:21:28,864][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1114024296 to pool.
+[DEBUG][2018-09-11 15:01:52,070][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 15:01:52,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:01:52,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:01:52,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:01:52,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:01:52,551][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:01:52,551][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:01:52,551][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:01:52,551][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,659][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 15:02:34,739][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,739][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,739][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,739][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,834][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,834][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,834][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,834][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:02:34,927][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 15:02:35,287][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 25490405.
+[DEBUG][2018-09-11 15:02:35,288][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:02:35,288][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 15:02:35,317][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 15:02:35,335][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:02:35,335][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:02:35,335][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 25490405 to pool.
+[DEBUG][2018-09-11 15:03:14,192][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 15:03:14,270][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,270][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,270][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,270][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,362][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,362][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,362][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,362][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:03:14,425][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 15:03:14,570][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 25490405.
+[DEBUG][2018-09-11 15:03:14,572][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:03:14,572][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 15:03:14,600][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 15:03:14,618][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:03:14,618][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:03:14,619][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 25490405 to pool.
+[DEBUG][2018-09-11 15:04:02,181][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 15:04:02,258][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,258][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,258][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,258][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,351][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,351][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,351][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,351][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:02,409][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 15:04:02,553][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 25490405.
+[DEBUG][2018-09-11 15:04:02,555][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:04:02,555][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 15:04:02,584][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 15:04:02,602][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:04:02,603][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@184f3e5]
+[DEBUG][2018-09-11 15:04:02,603][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 25490405 to pool.
+[DEBUG][2018-09-11 15:04:20,535][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 15:04:20,616][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,616][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,616][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,616][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,708][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,708][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,708][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,708][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 15:04:20,773][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 15:04:20,921][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2143440003.
+[DEBUG][2018-09-11 15:04:20,923][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7fc24c83]
+[DEBUG][2018-09-11 15:04:20,923][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 15:04:20,952][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:11:17,897][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:11:17,978][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:17,978][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:17,978][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:17,978][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:18,083][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:18,083][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:18,083][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:18,083][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:11:18,170][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:11:18,317][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1074412508.
+[DEBUG][2018-09-11 16:11:18,319][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:11:18,319][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:11:18,347][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:11:18,366][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:11:18,366][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:11:18,366][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1074412508 to pool.
+[DEBUG][2018-09-11 16:33:36,777][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:33:36,861][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:33:36,862][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:33:36,862][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:33:36,862][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:33:36,963][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:33:36,963][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:33:36,963][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:33:36,963][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:34,038][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:34:34,201][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 471647807.
+[DEBUG][2018-09-11 16:34:34,203][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1c1cc63f]
+[DEBUG][2018-09-11 16:34:34,203][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:34:34,231][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:34:34,246][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c1cc63f]
+[DEBUG][2018-09-11 16:34:34,246][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c1cc63f]
+[DEBUG][2018-09-11 16:34:34,246][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 471647807 to pool.
+[DEBUG][2018-09-11 16:34:48,118][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:34:48,205][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:48,205][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:48,206][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:48,206][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:48,314][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:48,314][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:48,314][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:34:48,314][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,643][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:36:45,721][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,721][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,721][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,722][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,825][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,825][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,825][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,825][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:36:45,887][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:36:46,034][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1074412508.
+[DEBUG][2018-09-11 16:36:46,036][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:36:46,036][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:36:46,064][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:36:46,083][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:36:46,083][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:36:46,083][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1074412508 to pool.
+[DEBUG][2018-09-11 16:37:44,625][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:37:44,707][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,707][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,707][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,707][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,802][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,802][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,802][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,802][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:44,876][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:37:45,026][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1074412508.
+[DEBUG][2018-09-11 16:37:45,027][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:37:45,027][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:37:45,057][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:37:45,077][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:37:45,077][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:37:45,077][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1074412508 to pool.
+[DEBUG][2018-09-11 16:37:57,781][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:37:57,857][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:57,857][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:57,857][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:57,858][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:57,953][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:57,953][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:57,953][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:57,953][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:37:58,016][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:37:58,161][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1074412508.
+[DEBUG][2018-09-11 16:37:58,162][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:37:58,162][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:37:58,190][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:37:58,208][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:37:58,208][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@400a3bdc]
+[DEBUG][2018-09-11 16:37:58,209][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1074412508 to pool.
+[DEBUG][2018-09-11 16:38:36,508][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:38:36,590][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,590][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,591][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,591][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,688][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,689][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,689][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,689][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:38:36,753][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:38:36,908][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1463709574.
+[DEBUG][2018-09-11 16:38:36,909][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@573e6f86]
+[DEBUG][2018-09-11 16:38:36,909][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:38:36,937][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:39:22,511][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:39:22,595][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,595][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,596][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,596][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,707][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,708][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,708][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,708][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:39:22,774][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:39:22,949][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 339480952.
+[DEBUG][2018-09-11 16:39:22,951][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@143c1178]
+[DEBUG][2018-09-11 16:39:22,951][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:39:22,981][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:41:16,343][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:41:16,427][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,427][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,428][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,428][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,534][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,534][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,534][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,534][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:16,598][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:41:16,753][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1939793832.
+[DEBUG][2018-09-11 16:41:16,755][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@739ee7a8]
+[DEBUG][2018-09-11 16:41:16,755][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:41:16,785][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:41:47,265][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:41:47,341][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,341][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,341][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,341][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,440][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,441][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,441][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,441][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:41:47,500][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:41:47,647][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 367937293.
+[DEBUG][2018-09-11 16:41:47,649][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@15ee470d]
+[DEBUG][2018-09-11 16:41:47,649][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:41:47,679][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:41:47,698][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@15ee470d]
+[DEBUG][2018-09-11 16:41:47,698][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@15ee470d]
+[DEBUG][2018-09-11 16:41:47,699][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 367937293 to pool.
+[DEBUG][2018-09-11 16:44:13,889][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:44:13,976][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:13,976][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:13,976][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:13,977][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:14,069][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:14,070][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:14,070][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:14,070][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:44:14,134][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:44:14,278][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1316663738.
+[DEBUG][2018-09-11 16:44:14,278][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:44:14,278][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:44:14,314][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:44:14,333][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:44:14,334][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:44:14,334][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1316663738 to pool.
+[DEBUG][2018-09-11 16:45:20,678][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:45:20,756][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,756][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,756][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,756][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,854][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,855][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,855][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,855][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:20,915][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:45:21,060][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1316663738.
+[DEBUG][2018-09-11 16:45:21,062][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:45:21,062][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:45:21,090][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:45:21,109][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:45:21,109][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:45:21,109][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1316663738 to pool.
+[DEBUG][2018-09-11 16:45:24,888][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:45:24,964][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:24,964][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:24,964][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:24,964][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:25,059][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:25,059][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:25,059][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:25,059][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:25,122][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:45:25,270][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1608517980.
+[DEBUG][2018-09-11 16:45:25,271][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5fe0095c]
+[DEBUG][2018-09-11 16:45:25,271][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id and 1=1; 
+[DEBUG][2018-09-11 16:45:25,299][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 16:45:36,791][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:45:36,866][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:36,866][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:36,866][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:36,866][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:36,958][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:36,958][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:36,958][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:36,958][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:37,019][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:45:37,168][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1316663738.
+[DEBUG][2018-09-11 16:45:37,170][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:45:37,170][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:45:37,198][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:45:37,217][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:45:37,217][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4e7ab1ba]
+[DEBUG][2018-09-11 16:45:37,217][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1316663738 to pool.
+[DEBUG][2018-09-11 16:45:45,432][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:45:45,510][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,510][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,510][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,511][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,608][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,608][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,608][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,609][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:45,673][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:45:45,822][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1608517980.
+[DEBUG][2018-09-11 16:45:45,823][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5fe0095c]
+[DEBUG][2018-09-11 16:45:45,823][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id and 1=1; 
+[DEBUG][2018-09-11 16:45:45,852][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 16:45:54,535][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:45:54,612][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,613][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,613][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,613][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,710][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,711][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,711][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,711][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:45:54,773][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:45:54,918][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1608517980.
+[DEBUG][2018-09-11 16:45:54,919][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5fe0095c]
+[DEBUG][2018-09-11 16:45:54,919][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:45:54,947][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 16:46:59,404][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:46:59,484][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,484][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,484][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,484][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,578][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,578][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,578][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,578][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:46:59,643][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:46:59,793][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1147623878.
+[DEBUG][2018-09-11 16:46:59,794][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@446759c6]
+[DEBUG][2018-09-11 16:46:59,795][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:46:59,824][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 16:48:00,051][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:48:00,129][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,129][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,130][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,130][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:48:00,294][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:48:00,440][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 92772303.
+[DEBUG][2018-09-11 16:48:00,442][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@58797cf]
+[DEBUG][2018-09-11 16:48:00,442][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:48:00,471][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 16:49:10,550][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:49:10,632][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,632][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,632][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,632][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,730][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,730][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,730][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,730][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:10,794][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:49:10,945][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1167353766.
+[DEBUG][2018-09-11 16:49:10,946][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@459467a6]
+[DEBUG][2018-09-11 16:49:10,946][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:49:10,976][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 16:49:44,223][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:49:44,303][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,303][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,303][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,303][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,398][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:49:44,462][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:49:44,607][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 92772303.
+[DEBUG][2018-09-11 16:49:44,609][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@58797cf]
+[DEBUG][2018-09-11 16:49:44,609][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:49:44,637][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 16:54:06,058][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 16:54:06,140][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,140][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,140][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,140][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,239][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,240][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,240][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,240][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 16:54:06,305][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 16:54:06,457][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1563883839.
+[DEBUG][2018-09-11 16:54:06,458][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5d36f93f]
+[DEBUG][2018-09-11 16:54:06,459][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 16:54:06,487][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:01:16,337][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:01:16,418][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,418][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,418][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,418][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,508][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,508][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,508][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,508][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:01:16,575][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:01:16,725][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1563883839.
+[DEBUG][2018-09-11 17:01:16,726][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5d36f93f]
+[DEBUG][2018-09-11 17:01:16,726][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:01:16,756][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:06:55,197][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:06:55,273][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,273][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,273][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,273][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,367][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,367][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,368][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,368][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:06:55,438][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:06:55,594][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1143326440.
+[DEBUG][2018-09-11 17:06:55,596][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4425c6e8]
+[DEBUG][2018-09-11 17:06:55,597][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:06:55,626][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:07:13,312][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:07:13,394][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,395][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,395][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,395][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,494][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,494][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,494][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,494][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:07:13,563][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:07:13,717][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 738038049.
+[DEBUG][2018-09-11 17:07:13,719][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@2bfd9121]
+[DEBUG][2018-09-11 17:07:13,719][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:07:13,747][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:23:55,296][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:23:55,375][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,375][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,375][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,375][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,478][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,478][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,478][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,478][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:23:55,548][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:23:55,701][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1143326440.
+[DEBUG][2018-09-11 17:23:55,703][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@4425c6e8]
+[DEBUG][2018-09-11 17:23:55,703][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:23:55,733][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:24:32,587][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:24:32,667][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,667][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,667][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,667][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,763][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,763][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,763][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,763][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:24:32,834][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:24:32,982][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1563883839.
+[DEBUG][2018-09-11 17:24:32,983][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5d36f93f]
+[DEBUG][2018-09-11 17:24:32,983][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:24:33,012][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:27:04,199][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:27:04,272][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,272][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,272][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,272][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,360][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,360][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,360][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,360][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:27:04,425][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:27:04,569][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1563883839.
+[DEBUG][2018-09-11 17:27:04,571][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5d36f93f]
+[DEBUG][2018-09-11 17:27:04,571][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:27:04,599][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:32:16,256][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:32:16,342][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:32:16,342][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:32:16,342][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:32:16,342][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:32:16,459][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:32:16,619][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 850263025.
+[DEBUG][2018-09-11 17:32:16,621][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@32adfbf1]
+[DEBUG][2018-09-11 17:32:16,621][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:32:16,651][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:36:09,949][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:36:10,030][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,030][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,030][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,030][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,153][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,153][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,153][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,153][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:10,219][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:36:10,369][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1520745879.
+[DEBUG][2018-09-11 17:36:10,371][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:36:10,371][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:36:10,401][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 17:36:10,421][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:36:10,422][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:36:10,422][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1520745879 to pool.
+[DEBUG][2018-09-11 17:36:56,344][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:36:56,419][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,419][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,419][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,419][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,512][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,512][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,512][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,512][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:36:56,575][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:36:56,721][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1520745879.
+[DEBUG][2018-09-11 17:36:56,723][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:36:56,723][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:36:56,752][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 17:36:56,772][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:36:56,772][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:36:56,772][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1520745879 to pool.
+[DEBUG][2018-09-11 17:37:25,838][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:37:25,914][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:25,914][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:25,914][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:25,914][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:26,017][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:26,018][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:26,018][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:26,018][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:37:26,077][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:37:26,223][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1520745879.
+[DEBUG][2018-09-11 17:37:26,224][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:37:26,224][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:37:26,246][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 17:37:26,262][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:37:26,262][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5aa4bd97]
+[DEBUG][2018-09-11 17:37:26,262][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1520745879 to pool.
+[DEBUG][2018-09-11 17:38:04,368][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:38:04,444][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,444][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,444][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,444][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,542][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,542][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,542][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,542][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:04,602][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:38:04,743][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 540081668.
+[DEBUG][2018-09-11 17:38:04,743][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@2030fe04]
+[DEBUG][2018-09-11 17:38:04,743][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:38:04,781][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 17:38:04,801][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2030fe04]
+[DEBUG][2018-09-11 17:38:04,801][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2030fe04]
+[DEBUG][2018-09-11 17:38:04,802][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 540081668 to pool.
+[DEBUG][2018-09-11 17:38:34,267][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:38:34,344][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,344][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,344][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,344][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,437][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:38:34,498][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:38:34,642][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1973105406.
+[DEBUG][2018-09-11 17:38:34,644][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@759b32fe]
+[DEBUG][2018-09-11 17:38:34,644][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:38:34,673][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 17:38:34,695][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@759b32fe]
+[DEBUG][2018-09-11 17:38:34,695][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@759b32fe]
+[DEBUG][2018-09-11 17:38:34,695][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1973105406 to pool.
+[DEBUG][2018-09-11 17:39:16,968][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:39:17,045][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:39:17,045][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:39:17,046][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:39:17,046][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:39:17,157][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:39:17,301][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2052239723.
+[DEBUG][2018-09-11 17:39:17,303][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:39:17,303][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:39:17,332][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 17:39:17,346][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:39:17,346][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:39:17,346][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2052239723 to pool.
+[DEBUG][2018-09-11 17:39:42,264][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:39:42,350][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:39:42,351][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:39:42,351][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:39:42,351][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:41:29,092][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:41:29,245][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 379600408.
+[DEBUG][2018-09-11 17:41:29,247][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@16a03e18]
+[DEBUG][2018-09-11 17:41:29,247][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:41:29,277][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:44:01,504][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:44:01,585][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:44:01,585][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:44:01,585][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:44:01,586][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:44:01,701][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:44:01,848][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2052239723.
+[DEBUG][2018-09-11 17:44:01,850][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:44:01,850][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:44:01,879][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:48:15,821][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:48:15,903][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:15,903][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:15,903][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:15,903][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:16,018][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:48:16,167][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2052239723.
+[DEBUG][2018-09-11 17:48:16,169][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:48:16,169][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:48:16,200][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:48:42,632][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:48:42,717][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:42,717][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:42,717][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:42,717][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:48:42,825][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:48:42,971][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2052239723.
+[DEBUG][2018-09-11 17:48:42,972][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:48:42,972][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:48:43,001][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:51:38,965][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:51:39,049][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:51:39,049][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:51:39,049][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:51:39,050][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:51:39,173][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:51:39,323][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2052239723.
+[DEBUG][2018-09-11 17:51:39,324][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:51:39,325][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:51:39,355][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:52:21,994][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:52:22,074][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:52:22,074][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:52:22,074][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:52:22,074][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:52:22,186][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:52:22,333][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1392466326.
+[DEBUG][2018-09-11 17:52:22,335][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@52ff5996]
+[DEBUG][2018-09-11 17:52:22,335][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:52:22,365][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
+[DEBUG][2018-09-11 17:59:54,466][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 17:59:54,546][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:59:54,546][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:59:54,546][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:59:54,546][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 17:59:54,658][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 17:59:54,807][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2052239723.
+[DEBUG][2018-09-11 17:59:54,809][ly.mapper.SchoolCjMapper.queryCourse]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:59:54,809][ly.mapper.SchoolCjMapper.queryCourse]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 17:59:54,837][ly.mapper.SchoolCjMapper.queryCourse]==> Parameters: 
+[DEBUG][2018-09-11 17:59:54,852][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:59:54,852][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 17:59:54,852][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2052239723 to pool.
+[DEBUG][2018-09-11 18:00:10,752][org.apache.ibatis.logging.LogFactory]Logging initialized using 'org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-09-11 18:00:10,830][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 18:00:10,830][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 18:00:10,830][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 18:00:10,830][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-09-11 18:00:10,943][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Openning JDBC Connection
+[DEBUG][2018-09-11 18:00:11,098][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2052239723.
+[DEBUG][2018-09-11 18:00:11,100][ly.mapper.SchoolCjMapper.queryCourseResultMap]ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7a52b16b]
+[DEBUG][2018-09-11 18:00:11,100][ly.mapper.SchoolCjMapper.queryCourseResultMap]==>  Preparing: select c.*,t.t_name from teacher t ,course c where t.t_id=c.t_id; 
+[DEBUG][2018-09-11 18:00:11,133][ly.mapper.SchoolCjMapper.queryCourseResultMap]==> Parameters: 
