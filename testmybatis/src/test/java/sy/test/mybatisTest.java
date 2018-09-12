@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import po.Course;
+import po.Student;
 import po.UserMysql;
 import po.CourseExtend;
 import po.user;
@@ -68,4 +69,33 @@ public class mybatisTest {
 		//System.out.println(list.toArray());
 		sqlSession.close();	
 	}
+	
+	@Test
+	public void testqueryStudentCoursrSource() throws Exception {
+		//createSqlSessionFactory();
+		//通过工厂得到会话sqlsession
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+		//获取mapper接口实例
+		SchoolCjMapper schoolCjMapper =sqlSession.getMapper(SchoolCjMapper.class);
+		
+		List<Student> list2 =schoolCjMapper.queryStudentCoursrSource();
+		System.out.println(list2.size());
+	    for (Student student : list2) {
+	        System.out.println(student.toString());
+	    }
+	    System.out.println("-------------------------");
+	    int index = 0;
+	    Student student =list2.get(index);
+	    
+	    student.toString();
+	    System.out.println(student.toString());
+	    //Student [s_id=01, s_name=赵雷, s_birth=1990-01-01, s_sex=男, course=[Course [c_id=null, c_name=语文, t_id=null, teacher=null], Course [c_id=null, c_name=数学, t_id=null, teacher=null], Course [c_id=null, c_name=英语, t_id=null, teacher=null]], score=[Score [s_id=null, c_id=null, s_score=80], Score [s_id=null, c_id=null, s_score=90], Score [s_id=null, c_id=null, s_score=99]]]
+	    //这样的数据应该是不合理的，学生跟课程、成绩信息对应不上了 
+		//通过sqlsession操作数据库
+		//SchoolCjMapper schoolCjMapper=sqlSession.selectList("ly.mapper.SchoolCjMapper.queryCourseResultMap");
+		//System.out.println(list.toArray());
+		sqlSession.close();	
+	}
+	
+	
 }

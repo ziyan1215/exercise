@@ -22,6 +22,11 @@ public class Score {
 	public void setS_score(int s_score) {
 		this.s_score = s_score;
 	}
+	@Override
+	public String toString() {
+		return "Score [s_id=" + s_id + ", c_id=" + c_id + ", s_score="
+				+ s_score + "]";
+	}
 	
 	
 }

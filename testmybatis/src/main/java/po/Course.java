@@ -1,7 +1,7 @@
 package po;
 
 public class Course {
-	private String c_id;
+	private String c_id; //主键
 	private String c_name;
 	private String t_id;
 	

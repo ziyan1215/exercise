@@ -15,6 +15,21 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<result property="t_name" column="t_name"/>
 	</association>
 	</resultMap>
+	<!--查询学生各科目成绩  -->
+	<resultMap type="po.Student" id="StudentCoursSource">
+		<id property="s_id" column="s_id"/>
+		<result property="s_name" column="s_name"/>
+		<result property="s_birth" column="s_birth"/>
+		<result property="s_sex" column="s_sex"/>
+	<collection  property="course" ofType="po.Course">
+		<id property="c_id" column="c_id"/>
+		<result property="c_name" column="c_name"/>
+	</collection >
+	<collection  property="score" ofType="po.Score">
+		<id property="c_id" column="c_id"/>
+		<result property="s_score" column="s_score"/>
+	</collection >
+	</resultMap>
 	
 	<select id="queryCourse"  resultType="po.CourseExtend">
 		select c.*,t.t_name from teacher t ,course  c
@@ -25,6 +40,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="queryCourseResultMap"  resultMap="CourseMap">
 		select c.*,t.t_name from teacher t ,course  c
 		where t.t_id=c.t_id;
+	</select>
+	
+	
+	<select id="queryStudentCoursrSource" resultMap="StudentCoursSource">
+		select st.*,c.c_name,c.c_id,s.s_score
+			from student st ,course c ,score s 
+			where st.s_id=s.s_id 
+			and s.c_id=c.c_id;
 	</select>
 	
 </mapper>
