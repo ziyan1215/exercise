@@ -2,6 +2,7 @@ package sy.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Iterator;
 import java.util.List;
 
 import ly.mapper.SchoolCjMapper;
@@ -86,9 +87,16 @@ public class mybatisTest {
 	    System.out.println("-------------------------");
 	    int index = 0;
 	    Student student =list2.get(index);
-	    
 	    student.toString();
 	    System.out.println(student.toString());
+	    Iterator itimer=list2.iterator();
+	   if(itimer.hasNext()){
+		   System.out.println("LIST is :");
+	    	System.out.println(list2.toString());;
+	    	
+	    }
+	    
+	    
 	    //Student [s_id=01, s_name=赵雷, s_birth=1990-01-01, s_sex=男, course=[Course [c_id=null, c_name=语文, t_id=null, teacher=null], Course [c_id=null, c_name=数学, t_id=null, teacher=null], Course [c_id=null, c_name=英语, t_id=null, teacher=null]], score=[Score [s_id=null, c_id=null, s_score=80], Score [s_id=null, c_id=null, s_score=90], Score [s_id=null, c_id=null, s_score=99]]]
 	    //这样的数据应该是不合理的，学生跟课程、成绩信息对应不上了 
 		//通过sqlsession操作数据库
