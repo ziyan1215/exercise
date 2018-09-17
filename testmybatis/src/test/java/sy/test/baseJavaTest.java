@@ -28,6 +28,19 @@ public class baseJavaTest {
 		        System.out.println("Error exec!");  
 		    } 
 			}
+	
+	@Test
+	public void intNum(){
+				int num=0;
+				while(num<8){
+				num+=1;
+				if(num==3){
+				continue;}
+				num=num+1;
+				}
+				System.out.println(num);
+
+			}
 
 	}
 	
