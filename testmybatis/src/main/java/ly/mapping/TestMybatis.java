@@ -1,29 +1,17 @@
 package ly.mapping;
 
-import java.util.List;
-
-
-
-
-
+//import java.util.List;
 import ly.model.User;
 import ly.service.UserService;
-
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+//import org.junit.runner.RunWith;
+//import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-
-
-
-
-
-import com.alibaba.fastjson.JSON;
+//import org.springframework.test.context.ContextConfiguration;
+//import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+//import com.alibaba.fastjson.JSON;
 
 public class TestMybatis {
 	@Test
