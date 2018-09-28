@@ -23,6 +23,7 @@ public class TestMybatis {
 		UserService userService =(UserService)ac.getBean("userService");
 		//System.out.println("1111111111111111111");
 		//System.out.println(userService);
+		//Integer id =1; 
 		User user=userService.getUserByID(1);
 		System.out.println(user.getUserName());
 	}
