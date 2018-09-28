@@ -9,10 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@RequestMapping("/userController")
+@RequestMapping(value="/user",produces="text/html;charset=UTF-8")
 public class UserController {
 	private UserService userService ;
 	public UserService getUserService() {
@@ -22,10 +23,10 @@ public class UserController {
 	public void setUserService(UserService userService) {
 		this.userService = userService;
 	}
-	@RequestMapping("/showUser/{id}")
-	public String showUser(@PathVariable Integer id,HttpServletRequest restqust){
-		User u =userService.getUserByID(id);
-		restqust.setAttribute("user", u.getUserName());
-		return "showUser";
+	@RequestMapping("/login")
+	@ResponseBody
+	public String excute(String uname,String upassword){
+		String result = userService.login(uname,upassword);	
+		return result;
 	}
 }

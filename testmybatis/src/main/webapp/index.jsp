@@ -7,7 +7,7 @@
 <!-- 使用ajax，需要引入jquery -->
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
  
-<title>测试ssm框架</title>
+<title>测试</title>
 </head>
 <!--   script代码   -->
 <script type="text/javascript">
@@ -16,7 +16,7 @@ $(function(){
 	var upassword = $("#upassword").val();
 	$('#login').click(function(){
 		$.ajax({
-			url:'user/login.do',
+			url:'user/login.action',
 			data:{uanme:uname,upassword:upassword},
 			type:'post',
 			async:false,

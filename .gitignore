@@ -15,3 +15,5 @@ testmybatis/.classpath
 .gitignore
 demo2/target/
 testmybatis/mybatis.log
+
+react-redux-ducks-master/node_modules/

@@ -1,5 +1,7 @@
 package ly.service;
 
+import javax.naming.spi.DirStateFactory.Result;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,5 +32,13 @@ public class userServiceImpl implements UserService {
 		// TODO Auto-generated method stub
 		return userMapper.selectByPrimaryKey(id);
 	}
+	
+	public String login(String uname,String upassword){
+		 Integer userId=12;
+		User Result =userMapper.selectByPrimaryKey(userId);
+		System.out.println(Result.toString());
+		return Result.getUserName();
+	}
+	
 
 }
