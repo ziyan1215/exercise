@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@RequestMapping(value="/user",produces="text/html;charset=UTF-8")
+//@RequestMapping(value="/user",produces="text/html;charset=UTF-8")
+@RequestMapping("/user")
 public class UserController {
 	private UserService userService ;
 	public UserService getUserService() {

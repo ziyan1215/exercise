@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans 
-http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
 http://www.springframework.org/schema/context 
-http://www.springframework.org/schema/context/spring-context-3.0.xsd 
+http://www.springframework.org/schema/context/spring-context-3.2.xsd 
 http://www.springframework.org/schema/mvc 
-http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 	<!--处理器适配器，所有处理器适配器都实现HandlerAdpter接口  -->
 	<bean		class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/> 
 	<!--另外一个非注解的适配器http请求处理器适配器  -->
@@ -67,5 +67,21 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 			<value>4096</value>
 		</property>
 	</bean>
+	
+	<!-- 处理请求返回json字符串的中文乱码问题 9-28-23点44分xzy-->
+	<!--  首先将Spring版本提升到3.1及以上
+			如果还不行替换xml文件头部:-->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>application/json;charset=UTF-8</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
 
 </beans>
