@@ -24,7 +24,7 @@ public class TestMybatis {
 		//System.out.println("1111111111111111111");
 		//System.out.println(userService);
 		//Integer id =1; 
-		User user=userService.getUserByID(1);
+		User user=userService.getUserByID(2);
 		System.out.println(user.getUserName());
 	}
 	

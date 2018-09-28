@@ -29,7 +29,7 @@ import po.user;
 public class test {
 	Logger logger =Logger.getLogger(test.class);
 	private static final String admin = "admin";
-	private static final int id =1;
+	private static final int id =2;
 	//private static final Integer id1 =16;
 	@Test
 	public void testOracle() throws IOException {
