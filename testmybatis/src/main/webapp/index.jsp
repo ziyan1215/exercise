@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<!DOCTYPE html >
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -8,31 +8,49 @@
 <!-- <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script> -->
 <script src="/common/js/jquery.js"></script>
 <title>测试</title>
+	<link rel="stylesheet" type="text/css" href="common/easyUI/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="common/easyUI/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="common/easyUI/themes/demo.css">
+    <script type="text/javascript" src="common/easyUI/jquery.min.js"></script>
+    <script type="text/javascript" src="common/easyUI/jquery.easyui.min.js"></script>
 </head>
 
  
 <body>
 <!-- 前台页面 -->
-	用户名：<input type="text" id="uname" name="uname"></input><br>
-	密码：<input type="password" id="upassword" name="upassword"></input><br>
-	<button id="login" >login</button>
+<div class="easyui-panel" title="login" style="width:100%;max-width:400px;padding:30px 60px;">
+        <div style="margin-bottom:20px">
+            <input id="uname" name="uname" class="easyui-textbox" label="用户名:" labelPosition="top" style="width:100%;">
+        </div>
+         <div id="upassword" name="upassword style="margin-bottom:20px">
+            <input class="easyui-textbox" label="密码:" labelPosition="top" style="width:100%;">
+        </div>
+		<div>
+	
+            <a id="login" href="#"  class="easyui-linkbutton" iconCls="icon-ok" style="height:32px">login</a>
+            <a id="bt" href="user/register.action"  class="easyui-linkbutton" iconCls="icon-edit" style="height:32px">Register</a>
+        </div>
+</di>
+	
 	<!--   script代码   -->
 <script type="text/javascript">
 $(function(){
-	console.log("111");
-	var uname = $('#uname').val();
-//console.log($('#uname').val())
-	var upassword = $("#upassword").val();
-	alert(uname);
-	alert(upassword);
+	
+	$('#bt').click(function(){
+		console.log('bt click');
+		console.log(uname);
+		var uname1 = $('#uname').val();
+		console.log(uname1);
+	});
+	
 	$('#login').click(function(){
-		alert(uname);
-		alert(upassword);
-		console.log(upassword);
-		console.log(uname+""+upassword);
+		var uname = $('#uname').val();
+		//console.log($('#uname').val())
+		var upassword = $("#upassword").val();
+
 		$.ajax({
 			url:'user/login.action',
-			data:{uname:'dds1',upassword:'dds2'},
+			data:{uname:uname,upassword:upassword},
 			type:'post',
 			async:false,
 			success:function(data){
@@ -41,6 +59,12 @@ $(function(){
 			}
 		});
 	});	
+	
+
+	
+
+
+
 });
 </script>
 </body>
