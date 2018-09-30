@@ -24,3 +24,9 @@ git remote show origin
     master merges with remote master
   Local ref configured for 'git push':
     master pushes to master (up to date)
+更新本地的远程分支
+  git fetch origin
+  本地与远程的差集 :（显示远程有而本地没有的commit信息）
+  git log master..origin/master
+  统计文件的改动
+    git diff --stat master origin/master
