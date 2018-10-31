@@ -22,8 +22,8 @@
         <div style="margin-bottom:20px">
             <input id="uname" name="uname" class="easyui-textbox" label="用户名:" labelPosition="top" style="width:100%;">
         </div>
-         <div id="upassword" name="upassword style="margin-bottom:20px">
-            <input class="easyui-textbox" label="密码:" labelPosition="top" style="width:100%;">
+         <div  style="margin-bottom:20px">
+            <input id="upassword" name="upassword" class="easyui-textbox" label="密码:" labelPosition="top" style="width:100%;">
         </div>
 		<div>
 	
@@ -46,11 +46,11 @@ $(function(){
 	$('#login').click(function(){
 		var uname = $('#uname').val();
 		//console.log($('#uname').val())
-		var upassword = $("#upassword").val();
+		var up = $("#upassword").val();
 
 		$.ajax({
 			url:'user/login.action',
-			data:{uname:uname,upassword:upassword},
+			data:{uname:uname,upassword:up},
 			type:'post',
 			async:false,
 			success:function(data){

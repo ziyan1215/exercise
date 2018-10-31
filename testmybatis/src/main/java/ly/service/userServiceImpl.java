@@ -33,11 +33,19 @@ public class userServiceImpl implements UserService {
 		return userMapper.selectByPrimaryKey(id);
 	}
 	
-	public String login(String uname,String upassword){
-		 Integer userId=12;
-		User Result =userMapper.selectByPrimaryKey(userId);
+	public Boolean login(String uname,String upassword){
+		String un = uname;
+		String pw = upassword;
+		System.out.println(un+pw);
+		
+		User Result =userMapper.selectByPrimaryName(un);
 		System.out.println(Result.toString());
-		return Result.getUserName();
+		System.out.println(Result.getPassword());
+		if(Result.getPassword().equals(pw)){
+			return true;
+		}
+		//System.out.println(Result.toString());
+		return false;
 	}
 	
 

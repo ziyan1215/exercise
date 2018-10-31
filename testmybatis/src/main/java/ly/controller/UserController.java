@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping(value="/user",produces="text/html;charset=UTF-8")
 //@RequestMapping("/user")
+
 public class UserController {
 	private UserService userService ;
 	public UserService getUserService() {
@@ -27,8 +28,13 @@ public class UserController {
 	@RequestMapping("/login")
 	@ResponseBody
 	public String excute(String uname,String upassword){
-		String result = userService.login(uname,upassword);	
-		return result;
+		//调用服务来校验用户名密码是否正确
+		Boolean result = userService.login(uname,upassword);	
+		if(result==true){
+			System.out.println("tiaozhuan");
+		return "success";
+		}else
+		return "forward:fail";
 	}
 	
 	@RequestMapping("/register")
