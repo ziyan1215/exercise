@@ -9,7 +9,7 @@ public class ReflectTest {
 	public static Person initByDefaultConst() throws Throwable{
 		//通过类装载器获取Person对象
 		ClassLoader loader = Thread.currentThread().getContextClassLoader();
-		Class clazz = loader.loadClass("ly.Person");
+		Class clazz = loader.loadClass("com.ly.demo.Person");
 		//获取类的默认构造器对象并通过它实例化
 		Constructor cons =clazz.getDeclaredConstructor((Class[])null);
 		Person person = (Person)cons.newInstance();
