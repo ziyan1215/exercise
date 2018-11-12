@@ -7,7 +7,9 @@ import javax.naming.spi.DirStateFactory.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import ly.entity.Teacher;
 import ly.entity.User;
+import ly.mapper.TeacherMapper;
 import ly.mapper.UserMapper;
 
 @Service("userService")
@@ -15,8 +17,8 @@ public class userServiceImpl implements UserService {
 
 	
 	private UserMapper userMapper;
-		
-	
+	@Autowired 	
+	private TeacherMapper teacherMapper;
 	
 	public UserMapper getUserMapper() {
 		return userMapper;
@@ -60,7 +62,17 @@ public class userServiceImpl implements UserService {
 		
 		System.out.println(userMapper.insert(addUser));
 		
-		System.out.println(addUser.getUserId());
+		String id = addUser.getUserId().toString();
+		String nameString =addUser.getUserName();
+		
+		System.out.println(id);
+		System.out.println(addUser.getUserName());
+		Teacher teacher =new Teacher();
+		teacher.settId(id);
+		teacher.settName(nameString);
+		teacherMapper.insert(teacher);
+		
+		
 		//获取前端传来的注册信息。然后新增用户
 		//通过新增后的关联主键来获取主键
 		//通过主键关联创建分类用户

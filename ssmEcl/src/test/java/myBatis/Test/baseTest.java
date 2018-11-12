@@ -40,5 +40,6 @@ public class baseTest {
 		u.setPassword("123456");
 		userService.addUser(u);
 		
+		
 	}
 }
