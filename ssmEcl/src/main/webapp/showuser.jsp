@@ -6,8 +6,9 @@
 <title>showuser</title>
 </head>
 <body>
-
 showuser
 ${user.userName}
+
+<input type="button" value="ÐÂÔö"></input>
 </body>
 </html>

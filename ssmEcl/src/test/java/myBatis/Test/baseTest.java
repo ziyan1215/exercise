@@ -25,4 +25,20 @@ public class baseTest {
 		User user=userService.getUserByID(2);
 		System.out.println(user.getUserName());
 	}
+	
+	@Test
+	public void test2(){
+		logger.debug("------获取配置文件------");
+		
+		ApplicationContext ac =new ClassPathXmlApplicationContext(new String []{"spring.xml","spring-mybatis.xml"});
+		
+		UserService userService =(UserService)ac.getBean("userService");
+		
+		logger.debug("测试");
+		User u =new User();
+		u.setUserName("d");
+		u.setPassword("123456");
+		userService.addUser(u);
+		
+	}
 }

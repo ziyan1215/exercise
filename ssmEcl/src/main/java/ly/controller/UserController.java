@@ -20,14 +20,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 //@RequestMapping("/user")
 
 public class UserController {
-	private UserService userService ;
-	public UserService getUserService() {
-		return userService;
-	}
 	@Autowired
-	public void setUserService(UserService userService) {
-		this.userService = userService;
-	}
+	private UserService userService ;
+	
+	
 	@RequestMapping("/login")
 	//@ResponseBody
 	public String excute(String uname,String upassword){
@@ -55,4 +51,11 @@ public class UserController {
 		 model.addAttribute(user);
 		return "showuser";
 	}
+	
+	//新增用户
+	@RequestMapping("/add")
+	public void addUser(){
+		
+	}
+	
 }

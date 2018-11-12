@@ -1,5 +1,7 @@
 package ly.service;
 
+import java.util.UUID;
+
 import javax.naming.spi.DirStateFactory.Result;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,6 +48,23 @@ public class userServiceImpl implements UserService {
 		}
 		//System.out.println(Result.toString());
 		return false;
+	}
+
+	@Override
+	public User addUser(User user) {
+		// TODO Auto-generated method stub
+		
+		User addUser = new User();
+		addUser.setUserName(user.getUserName());
+		addUser.setPassword(user.getPassword());
+		
+		System.out.println(userMapper.insert(addUser));
+		
+		System.out.println(addUser.getUserId());
+		//获取前端传来的注册信息。然后新增用户
+		//通过新增后的关联主键来获取主键
+		//通过主键关联创建分类用户
+		return null;
 	}
 	
 
