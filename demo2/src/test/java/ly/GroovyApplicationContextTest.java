@@ -1,4 +1,4 @@
-package ly;
+/*package ly;
 
 import static org.junit.Assert.*;
 
@@ -18,3 +18,4 @@ public class GroovyApplicationContextTest {
 		assertEquals(person.getAge(),22);
 	}
 }
+*/
