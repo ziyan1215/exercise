@@ -13,6 +13,9 @@
 /testmybatis/target/*
 testmybatis/pom.xml
 testmybatis/.classpath
+o2o/.settings
+o2o/target
+o2o/catalina.base_IS_UNDEFINED
 .gitignore
 demo2/target/
 testmybatis/mybatis.log
