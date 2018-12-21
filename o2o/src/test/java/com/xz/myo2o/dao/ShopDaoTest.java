@@ -20,16 +20,20 @@ import com.xz.myo2o.entity.ShopCategory;
 public class ShopDaoTest extends BaseTest{
 	@Autowired
 	private ShopDao shopDao;
+	@Autowired
+	private ShopCategoryDao sha;
+	@Autowired
+	private AreaDao areaDao;
 	@Test
 	public void test() {
 		Shop shop = new Shop();
-		shop.setOwnerId(1L);
-		Area area = new Area();
-		area.setAreaId(1L);
-		ShopCategory sc = new ShopCategory();
-		sc.setShopCategoryId(1L);
-		shop.setShopName("mytest1");
-		shop.setShopDesc("mytest1");
+		shop.setOwnerId(8L);
+		//Area area = new Area();
+		//area.setAreaId(1L);
+		//ShopCategory sc = new ShopCategory();
+		//sc.setShopCategoryId(1L);
+		shop.setShopName("mytest21");
+		shop.setShopDesc("mytest21");
 		shop.setShopAddr("testaddr1");
 		shop.setPhone("13810524526");
 		shop.setShopImg("test1");
@@ -39,10 +43,13 @@ public class ShopDaoTest extends BaseTest{
 		shop.setLastEditTime(new Date());
 		shop.setEnableStatus(0);
 		shop.setAdvice("审核中");
-		shop.setArea(area);
-		shop.setShopCategory(sc);
+		//shop.setArea(area);
+		//shop.setShopCategory(sc);
+		//System.out.println(sc);
+		//sha.insertShopCategory(sc);
+		//areaDao.addArea(area);
 		int effectedNum = shopDao.insertShop(shop);
-		assertEquals(1, effectedNum);
+		System.out.println(effectedNum);
 	}
 
 }
