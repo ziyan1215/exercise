@@ -10,4 +10,5 @@ import com.xz.myo2o.entity.Area;
 public interface ShopService {
 	
 	
+	
 }

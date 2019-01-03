@@ -25,4 +25,20 @@ public class ShopController {
 		
 	}
 	
+	
+	@RequestMapping("/test")
+	@ResponseBody
+	public String test() {
+		String resultString = "{\"result\":true}"; //注意一定是双引号 "{\"result\":\"success\"}"
+		return resultString;
+	}
+	
+	@RequestMapping("/uploadTest")
+	@ResponseBody
+	public String uploadTest() {
+		String resultString = "{\"result\":true}"; //注意一定是双引号 "{\"result\":\"success\"}"
+		System.out.println("1");
+		return resultString;
+	}
+	
 }
