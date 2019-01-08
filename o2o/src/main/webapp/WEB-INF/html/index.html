@@ -3,19 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script type="text/javascript"
-		src="./resources/js/shop/base/jquery-1.11.2.min.js"></script>
+
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 </head>
 <body>
-	<input type="file" id="small-img">
+<!--http://localhost:8080/myo2o/shop/uploadTest  -->
+	<form action="/shop/uploadtest" method="post" enctype="multipart/form-data">
+	     <input type="file" name="file">
+	     <input type="submit" value="提交">
+     </form>
 	
 </body>
+
+
 <script type="text/javascript">
 //获取图片本地url
 
-function getObjectURL(file) {
+/* function getObjectURL(file) {
 var url = null;
 if (window.createObjectURL != undefined) { // basic
 url = window.createObjectURL(file);
@@ -57,7 +62,7 @@ alert(res);
 }
 
 });
-});
+}); */
 
  
 </script>

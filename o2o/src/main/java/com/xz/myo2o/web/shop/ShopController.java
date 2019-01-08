@@ -1,9 +1,19 @@
 package com.xz.myo2o.web.shop;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
 * @author 作者
@@ -33,12 +43,31 @@ public class ShopController {
 		return resultString;
 	}
 	
-	@RequestMapping("/uploadTest")
-	@ResponseBody
-	public String uploadTest() {
-		String resultString = "{\"result\":true}"; //注意一定是双引号 "{\"result\":\"success\"}"
-		System.out.println("1");
-		return resultString;
+	@RequestMapping("/uploadtest")
+	public String uploadTest(MultipartFile file, HttpSession session) {
+		System.out.println("upload");
+		/*// 文件不为空
+	    if(!file.isEmpty()) {
+	        // 文件存放路径
+	        String path = request.getServletContext().getRealPath("/");
+	        // 文件名称
+	        String name = String.valueOf(new Date().getTime()+"_"+file.getOriginalFilename());
+	        File destFile = new File(path,name);
+	        // 转存文件
+	        try {
+	            file.transferTo(destFile);
+	        } catch (IllegalStateException | IOException e) {
+	            e.printStackTrace();
+	        }
+	        // 访问的url
+	        String url = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
++ request.getContextPath() + "/" + name; 
+	    }        
+	    ModelAndView mv = new ModelAndView();
+	    mv.setViewName("uploadSuccess");*/
+	    return "/uploadSuccess";
+		
+		
 	}
 	
 }
