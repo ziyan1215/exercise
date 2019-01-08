@@ -65,7 +65,7 @@ public class ShopController {
 	    }        
 	    ModelAndView mv = new ModelAndView();
 	    mv.setViewName("uploadSuccess");*/
-	    return "/uploadSuccess";
+	    return "index";
 		
 		
 	}
