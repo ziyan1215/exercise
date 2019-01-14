@@ -22,7 +22,7 @@ public class FileUtil {
 		if (os.toLowerCase().startsWith("win")) {
 			basePath = "E:/image/";
 		} else {
-			basePath = "/home/xiangzepro/";
+			basePath = "/opt/myo2opro/";
 		}
 		basePath = basePath.replace("/", seperator);
 		return basePath;
