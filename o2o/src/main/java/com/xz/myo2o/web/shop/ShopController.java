@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
@@ -27,6 +28,17 @@ public class ShopController {
 	public String index() {
 		return "index";
 	}
+	
+	
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
+	private String register() {
+		return "shop/register";
+	}
+	@RequestMapping(value = "/ownerlogin")
+	public String ownerLogin(HttpServletRequest request) {
+		return "shop/ownerlogin";
+	}
+	
 	@RequestMapping("/json")
 	@ResponseBody
 	public String json(Model model,String name) {
