@@ -89,13 +89,17 @@ public class ShopController {
         System.out.println("localAddr："+localAddr);
         System.out.println("<br/>");
         System.out.println("localName："+localName);
-		/*// 文件不为空
+		
+        
+		 // 文件不为空
 	    if(!file.isEmpty()) {
 	        // 文件存放路径
 	        String path = request.getServletContext().getRealPath("/");
+	        System.out.println(path);
 	        // 文件名称
 	        String name = String.valueOf(new Date().getTime()+"_"+file.getOriginalFilename());
-	        File destFile = new File(path,name);
+	        System.out.println(name);
+	        File destFile = new File("E:\\",name);
 	        // 转存文件
 	        try {
 	            file.transferTo(destFile);
@@ -105,9 +109,10 @@ public class ShopController {
 	        // 访问的url
 	        String url = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
 + request.getContextPath() + "/" + name; 
+	        System.out.println(url);
 	    }        
 	    ModelAndView mv = new ModelAndView();
-	    mv.setViewName("uploadSuccess");*/
+	    mv.setViewName("uploadSuccess");
 	    return "index";
 		
 		
