@@ -30,14 +30,7 @@ public class ShopController {
 	}
 	
 	
-	@RequestMapping(value = "/register", method = RequestMethod.GET)
-	private String register() {
-		return "shop/register";
-	}
-	@RequestMapping(value = "/ownerlogin")
-	public String ownerLogin(HttpServletRequest request) {
-		return "shop/ownerlogin";
-	}
+
 	
 	@RequestMapping("/json")
 	@ResponseBody
