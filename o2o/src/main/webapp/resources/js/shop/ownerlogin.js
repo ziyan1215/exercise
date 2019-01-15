@@ -3,6 +3,8 @@
  */
 
 $(function(){
+	var loginUrl = '/myo2o/shop/ownerlogincheck';
+	var loginCount = 0;
 	//调整注册页面路径
 	$('#register').click(function() {
 		window.location.href = '/myo2o/shop/register';//页面重定向

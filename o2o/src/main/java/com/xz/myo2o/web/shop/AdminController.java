@@ -16,7 +16,7 @@ public class AdminController {
 		return "shop/register";
 	}
 	
-	@RequestMapping(value = "/ownerlogin")
+	@RequestMapping(value = "/ownerlogin", method = RequestMethod.GET)
 	public String ownerLogin(HttpServletRequest request) {
 		return "shop/ownerlogin";
 	}
