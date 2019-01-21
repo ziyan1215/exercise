@@ -13,7 +13,7 @@ import com.xz.myo2o.entity.ShopCategory;
 */
 public interface ShopCategoryDao {
 	/**
-	 * 
+	 * 【shopCategoryCondition？】
 	 * @param shopCategoryCondition
 	 * @return
 	 */

@@ -20,4 +20,9 @@ public class AdminController {
 	public String ownerLogin(HttpServletRequest request) {
 		return "shop/ownerlogin";
 	}
+	
+	@RequestMapping(value = "/shopedit", method = RequestMethod.GET)
+	private String shopEdit() {
+		return "shop/shopedit";
+	}
 }

@@ -12,6 +12,12 @@ import com.xz.myo2o.entity.Area;
 public interface AreaDao {
 	
 	
+	/**
+	 * used: 查询区域列表
+	 * last update time : 2019年1月21日下午2:49:23
+	 * return :List<Area>
+	 * @return
+	 */
 	List<Area> queryArea();
 	Integer addArea(Area area);
 }

@@ -1,5 +1,7 @@
 package com.xz.myo2o.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +28,13 @@ public class AreaServiceImpl implements AreaService {
 		System.out.println(areaDao.addArea(area));
 		
 		return 1;
+	}
+
+
+	@Override
+	public List<Area> queryArea() {
+		// TODO Auto-generated method stub
+		return areaDao.queryArea();
 	}
 
 }

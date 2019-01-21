@@ -18,12 +18,10 @@ public class AreaDaoTest extends BaseTest{
 	@Autowired
 	private AreaDao areaDao;
 	@Test
-	public void testQueryArea() {
-		Area a =new Area();
-		List<Area> l=new ArrayList<Area>();
-		l=areaDao.queryArea();
-		
-		System.out.println(l.size());
+	public void testQueryArea() {	
+		List<Area> listArea=new ArrayList<Area>();
+		listArea=areaDao.queryArea();
+		System.out.println(listArea.size());
 	}
 
 }

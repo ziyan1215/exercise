@@ -16,6 +16,14 @@ public interface AreaService {
 	 * @return
 	 */
 	Integer addArea(Area area);
+	
+	/**
+	 * used: 查询区域列表
+	 * last update time : 2019年1月21日下午2:50:34
+	 * return :List<Area>
+	 * @return
+	 */
+	List<Area> queryArea();
 
 
 
