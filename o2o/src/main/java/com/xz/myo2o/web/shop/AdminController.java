@@ -25,4 +25,15 @@ public class AdminController {
 	private String shopEdit() {
 		return "shop/shopedit";
 	}
+	
+	@RequestMapping(value = "/shopmanage", method = RequestMethod.GET)
+	private String shopmanage() {
+		return "shop/shopmanage";
+	}
+	
+	@RequestMapping(value = "/shoplist", method = RequestMethod.GET)
+	private String shoplist() {
+		return "shop/shoplist";
+	}
+	
 }

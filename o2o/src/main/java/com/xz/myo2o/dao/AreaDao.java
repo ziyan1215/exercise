@@ -13,11 +13,29 @@ public interface AreaDao {
 	
 	
 	/**
-	 * used: 查询区域列表
+	 * used: 查询地域列表
 	 * last update time : 2019年1月21日下午2:49:23
 	 * return :List<Area>
 	 * @return
 	 */
 	List<Area> queryArea();
-	Integer addArea(Area area);
+	
+	/**
+	 * used: 
+	 * last update time : 2019年1月22日下午4:18:33
+	 * return :int
+	 * @param area
+	 * @return
+	 */
+	int addArea(Area area);
+	
+	int insertArea(Area area);
+	
+	int updateArea(Area area);
+	
+	int deleteArea(Area area);
+	
+	int batchDeleteArea(Area area);
+	
+	
 }

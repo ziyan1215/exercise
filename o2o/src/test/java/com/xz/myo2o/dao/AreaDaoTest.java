@@ -1,5 +1,7 @@
 package com.xz.myo2o.dao;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +24,17 @@ public class AreaDaoTest extends BaseTest{
 		List<Area> listArea=new ArrayList<Area>();
 		listArea=areaDao.queryArea();
 		System.out.println(listArea.size());
+	}
+
+	@Test
+	public void addArea() {	
+		Area area =new Area();
+		area.setAreaId(8l);
+		area.setAreaName("junitArea");
+		area.setPriority(2);
+		int effectedNum=areaDao.addArea(area);
+		System.out.println(effectedNum);
+		assertEquals(1, effectedNum);
 	}
 
 }

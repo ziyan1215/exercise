@@ -10,4 +10,5 @@ import com.xz.myo2o.entity.Shop;
 public interface ShopDao {
 	//新增店铺
 	int insertShop(Shop shop);
+	//查询店铺
 }
