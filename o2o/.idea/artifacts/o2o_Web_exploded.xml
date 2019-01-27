@@ -1,0 +1,66 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="o2o:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/o2o_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="o2o/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="o2o" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/core-3.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/junit-4.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/dom4j-2.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jaxen-1.1.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jedis-2.9.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/javase-3.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/kaptcha-2.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/mybatis-3.4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/xstream-1.4.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/commons-io-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/standard-1.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jcommander-1.48.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/xmlpull-1.1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/xpp3_min-1.1.4c.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/commons-lang-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/slf4j-api-1.7.22.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/filters-2.0.235-1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/hamcrest-core-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jackson-core-2.8.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/logback-core-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/commons-pool2-2.4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/thumbnailator-0.4.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/mybatis-spring-1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/logback-classic-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/protostuff-api-1.0.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jackson-databind-2.8.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jai-imageio-core-1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/protostuff-core-1.0.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/commons-collections-3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/javax.servlet-api-3.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-tx-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/commons-fileupload-1.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-aop-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-web-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/jackson-annotations-2.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/protostuff-runtime-1.0.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-core-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-jdbc-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-test-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-beans-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/mysql-connector-java-5.1.37.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-webmvc-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-context-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/spring-expression-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/dependency/protostuff-collectionschema-1.0.12.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
