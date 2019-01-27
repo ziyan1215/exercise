@@ -25,7 +25,7 @@ public class LocalAuthExecution {
 
 	public LocalAuthExecution() {
 	}
-
+ 
 	// 失败的构造器
 	public LocalAuthExecution(LocalAuthStateEnum stateEnum) {
 		this.state = stateEnum.getState();

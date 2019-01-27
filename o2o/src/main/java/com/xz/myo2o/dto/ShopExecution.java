@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.xz.myo2o.entity.Shop;
 import com.xz.myo2o.enums.ShopStateEnum;
-
+ 
 /**
  * @author xuziyan
  * 封装执行后结果

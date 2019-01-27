@@ -1,4 +1,11 @@
-# ¼Æ»®
-ÉÌÆÌÐÂÔö¡¢²éÑ¯¡¢É¾³ý¡£ÐÞ¸Ä
-modelMap.put(ConstantForSuperAdmin.PAGE_SIZE, list);¿ÉÒÔÖ±½Ó½«list¶ÔÏó×ª»»³Éjson¸ñÊ½
+require jdk1.8  tomcat9.0
+
+# ï¿½Æ»ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½
+modelMap.put(ConstantForSuperAdmin.PAGE_SIZE, list);ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó½ï¿½listï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½jsonï¿½ï¿½Ê½
 List<Area> list = new ArrayList<Area>(); 
+
+
+
+æ–‡ä»¶ä¸Šä¼ æµ‹è¯•é“¾æŽ¥
+http://localhost:8080/myo2o/shop/index
