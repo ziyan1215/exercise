@@ -11,6 +11,12 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+
+# idea
+.idea
+*.iml
+/o2o/out
+
 /testmybatis/target/*
 testmybatis/pom.xml
 testmybatis/.classpath
